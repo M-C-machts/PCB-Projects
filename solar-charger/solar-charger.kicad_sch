@@ -433,7 +433,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Marcus_IC_library:AO3415"
+		(symbol "Marcus-PCB-Library:AO3415"
 			(pin_names
 				(hide yes)
 			)
@@ -441,55 +441,45 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at 11.43 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
 			(property "Value" "AO3415"
-				(at 5.08 0 0)
+				(at 11.43 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at -5.08 -13.97 0)
+			(property "Footprint" "SOT95P280X125-3N"
+				(at 11.43 -98.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(justify left)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3415.pdf"
-				(at -5.08 -16.51 0)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3415.pdf"
+				(at 11.43 -198.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "-4.0A Id, -20V Vds, P-Channel MOSFET, SOT-23, 41mΩ"
-				(at 17.78 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "P-Channel MOSFET"
-				(at 0 0 0)
+			(property "Description" "20V P-Channel MOSFET"
+				(at 0.635 13.335 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -497,19 +487,60 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
+			(property "Height" "1.25"
+				(at 11.43 -398.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AO3415"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
 					(hide yes)
 				)
 			)
 			(symbol "AO3415_0_1"
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy 1.524 1.905) (xy 1.524 -1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -521,7 +552,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
+						(xy 1.524 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -533,7 +564,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 2.032 2.286) (xy 2.032 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -545,7 +576,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+						(xy 2.032 1.778) (xy 4.572 1.778) (xy 4.572 -1.778) (xy 2.032 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -557,7 +588,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
+						(xy 2.032 0.508) (xy 2.032 -0.508)
 					)
 					(stroke
 						(width 0.254)
@@ -569,7 +600,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 2.032 -1.27) (xy 2.032 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -580,7 +611,7 @@
 					)
 				)
 				(circle
-					(center 1.651 0)
+					(center 2.921 0)
 					(radius 2.794)
 					(stroke
 						(width 0.254)
@@ -592,7 +623,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+						(xy 3.556 0) (xy 2.54 0.381) (xy 2.54 -0.381) (xy 3.556 0)
 					)
 					(stroke
 						(width 0)
@@ -604,7 +635,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
+						(xy 3.81 2.54) (xy 3.81 1.778)
 					)
 					(stroke
 						(width 0)
@@ -615,7 +646,7 @@
 					)
 				)
 				(circle
-					(center 2.54 1.778)
+					(center 3.81 1.778)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -626,7 +657,7 @@
 					)
 				)
 				(circle
-					(center 2.54 -1.778)
+					(center 3.81 -1.778)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -638,7 +669,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+						(xy 3.81 -2.54) (xy 3.81 0) (xy 2.032 0)
 					)
 					(stroke
 						(width 0)
@@ -650,7 +681,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+						(xy 4.064 -0.508) (xy 4.191 -0.381) (xy 4.953 -0.381) (xy 5.08 -0.254)
 					)
 					(stroke
 						(width 0)
@@ -662,7 +693,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+						(xy 4.572 -0.381) (xy 4.191 0.254) (xy 4.953 0.254) (xy 4.572 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -675,7 +706,7 @@
 			)
 			(symbol "AO3415_1_1"
 				(pin input line
-					(at -5.08 0 0)
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "G"
 						(effects
@@ -693,7 +724,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 3.81 5.08 270)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -711,7 +742,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 3.81 -5.08 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -731,29 +762,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Marcus_IC_library:AO3416"
+		(symbol "Marcus-PCB-Library:AO3416"
 			(pin_names
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "Q2"
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "AO3416"
-				(at 5.08 0 0)
+				(at 8.89 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
@@ -1029,7 +1058,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Marcus_Library:SBR2U30P1-7"
+		(symbol "Marcus-PCB-Library:SBR2U30P1-7"
 			(pin_names
 				(hide yes)
 			)
@@ -1136,7 +1165,7 @@
 			(symbol "SBR2U30P1-7_0_1"
 				(polyline
 					(pts
-						(xy 5.08 1.905) (xy 5.08 -1.905) (xy 8.89 0) (xy 5.08 1.905)
+						(xy 5.08 1.27) (xy 5.08 -1.27) (xy 7.62 0) (xy 5.08 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1148,7 +1177,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.255 -1.905) (xy 8.255 -1.27)
+						(xy 6.985 -1.27) (xy 6.985 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -1160,7 +1189,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.89 1.905) (xy 9.525 1.905)
+						(xy 7.62 1.27) (xy 8.255 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1172,7 +1201,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.89 1.905) (xy 8.89 -1.905) (xy 8.255 -1.905)
+						(xy 7.62 1.27) (xy 7.62 -1.27) (xy 6.985 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -1184,7 +1213,7 @@
 				)
 				(polyline
 					(pts
-						(xy 9.525 1.905) (xy 9.525 1.27)
+						(xy 8.255 1.27) (xy 8.255 0.635)
 					)
 					(stroke
 						(width 0)
@@ -1215,7 +1244,7 @@
 					)
 				)
 				(pin passive line
-					(at 11.43 0 180)
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -1235,7 +1264,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Marcus_Library:TLV803EB33VDBZR"
+		(symbol "Marcus-PCB-Library:TLV803EB33VDBZR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1348,7 +1377,7 @@
 						(type background)
 					)
 				)
-				(text "3.08V"
+				(text "3.3V"
 					(at 14.605 1.27 0)
 					(effects
 						(font
@@ -1413,7 +1442,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Marcus_Library:TLV809EA30DBZR"
+		(symbol "Marcus-PCB-Library:TLV809EA30DBZR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1526,7 +1555,7 @@
 						(type background)
 					)
 				)
-				(text "3.3V"
+				(text "3.08V"
 					(at 20.32 1.27 0)
 					(effects
 						(font
@@ -1837,28 +1866,28 @@
 		(uuid "399bd649-c4da-4d8e-9d82-f792f2a76315")
 	)
 	(junction
+		(at 133.35 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ebe092b-6313-49da-b28c-661720a52ce4")
+	)
+	(junction
 		(at 133.35 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3aa6fbcf-6f6c-4377-93fd-b219e4dc7520")
+		(uuid "7937f81a-ff8d-49f3-b720-9929dfb926f8")
 	)
 	(junction
 		(at 74.93 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6aac284b-49ae-4832-bf91-5e2fea2297f1")
+		(uuid "8b40dbbb-c5cb-4b43-b77f-58ff4eece550")
 	)
 	(junction
 		(at 87.63 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "787c15d5-69dc-4c11-86fd-e83fe6610bda")
-	)
-	(junction
-		(at 74.93 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95f11bed-267a-4deb-9f6d-e3cbae4cfaf0")
+		(uuid "a762b1a1-74b0-438c-ad7a-78f0184bcc3d")
 	)
 	(junction
 		(at 95.25 44.45)
@@ -1867,16 +1896,16 @@
 		(uuid "ad840782-4b56-4d50-9f47-78b28ea90b86")
 	)
 	(junction
+		(at 74.93 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7ad1e68-ba45-4ba0-9b9e-6d93b924e132")
+	)
+	(junction
 		(at 107.95 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3d6b390-43d5-4c23-88fd-8ea4846faf6e")
-	)
-	(junction
-		(at 133.35 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6b57b27-ae0f-4d84-a92c-f4296f3665df")
 	)
 	(wire
 		(pts
@@ -2110,7 +2139,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 44.45) (xy 57.15 44.45)
+			(xy 49.53 44.45) (xy 58.42 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2189,80 +2218,6 @@
 		(uuid "fa2fa9ce-afe3-40ab-b962-7846baa8d3e4")
 	)
 	(symbol
-		(lib_id "Marcus_IC_library:AO3415")
-		(at 87.63 46.99 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08c133ad-bc0c-445c-b539-7d3fd3d88c2d")
-		(property "Reference" "Q1"
-			(at 87.63 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO3415"
-			(at 87.63 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 73.66 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3415.pdf"
-			(at 71.12 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-4.0A Id, -20V Vds, P-Channel MOSFET, SOT-23, 41mΩ"
-			(at 100.33 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6dc0ae13-ac47-410d-8a7e-02f7066a8725")
-		)
-		(pin "2"
-			(uuid "8458ca0e-f156-4e9b-8dc1-d28634589317")
-		)
-		(pin "3"
-			(uuid "55c1d3f7-5670-466e-8933-84a34ed575db")
-		)
-		(instances
-			(project ""
-				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 107.95 44.45 0)
 		(unit 1)
@@ -2272,7 +2227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ee3547c-169e-4d33-a824-4465faf1c35c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR6"
 			(at 107.95 48.26 0)
 			(effects
 				(font
@@ -2322,23 +2277,1140 @@
 		(instances
 			(project "solar_charger"
 				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
-					(reference "#PWR06")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Marcus_Library:TLV809EA30DBZR")
+		(lib_id "power:-BATT")
+		(at 107.95 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b6c42ca-e373-4e2c-ae3a-b8807a71b4aa")
+		(property "Reference" "#PWR1"
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 107.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fa90427-1efe-4085-9bdd-57e7d8fcbeea")
+		)
+		(instances
+			(project "solar_charger"
+				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
+					(reference "#PWR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 133.35 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ead3795-fde5-4475-9ae6-8b9b62db89e1")
+		(property "Reference" "#PWR2"
+			(at 133.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 133.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef85b609-3099-496b-b534-4815fb4d5483")
+		)
+		(instances
+			(project "solar_charger"
+				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
+					(reference "#PWR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 181.61 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a2d0642-0ae1-4e64-b5e9-06b4bf65723c")
+		(property "Reference" "J3"
+			(at 182.88 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 171.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
+			(at 181.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 181.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9aaadb98-9fed-4dd0-ad1a-803da3b383a5")
+		)
+		(pin "1"
+			(uuid "a9183186-e0f8-4238-a902-8a8e6c0e6836")
+		)
+		(instances
+			(project "solar_charger"
+				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 133.35 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f04c4d8-a2bb-4842-bc8d-f42003143d33")
+		(property "Reference" "#PWR4"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 133.35 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 133.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a99429b-d8de-49aa-b09b-8185454af6ab")
+		)
+		(instances
+			(project ""
+				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
+					(reference "#PWR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Marcus-PCB-Library:SBR2U30P1-7")
+		(at 55.88 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52fbe378-4677-4190-956c-fc131474d1e1")
+		(property "Reference" "D1"
+			(at 62.5475 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SBR2U30P1-7"
+			(at 62.5475 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Marcus-PCB-Library:SODFL3718X100N"
+			(at 67.31 141.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/sbr2u30p1-7/diodes-incorporated"
+			(at 67.31 241.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky Avalanche Diode, 30V 2A"
+			(at 66.675 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 67.31 441.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-SBR2U30P1-7"
+			(at 67.31 541.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR2U30P1-7?qs=DwnLFiA34IJMuJCpilI3ag%3D%3D"
+			(at 67.31 641.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 67.31 741.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SBR2U30P1-7"
+			(at 67.31 841.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc231bb9-3ebf-4e23-bec0-8618f043fabe")
+		)
+		(pin "1"
+			(uuid "6da8cbe2-03bb-4753-b8bd-26e272c813a7")
+		)
+		(instances
+			(project ""
+				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 74.93 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f369a44-7291-4896-a44f-e4d5e71db6b3")
+		(property "Reference" "#PWR5"
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 74.93 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 74.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33d65835-134d-4624-9db0-a2b5d515291a")
+		)
+		(instances
+			(project "solar_charger"
+				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
+					(reference "#PWR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "708c5b3b-887e-4fa3-9609-555f9d94d7a5")
+		(property "Reference" "C1"
+			(at 66.04 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 66.04 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 63.1952 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7daa1f9-a23d-40f6-a4a4-f97c16bb3a10")
+		)
+		(pin "2"
+			(uuid "768abd18-0e69-4530-9502-6e331ba424ff")
+		)
+		(instances
+			(project ""
+				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 121.92 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80676c6f-7485-4a47-bcb1-5062d453df15")
+		(property "Reference" "C2"
+			(at 123.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 122.8852 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61efc579-4b42-4923-bb4e-1c34fedad429")
+		)
+		(pin "2"
+			(uuid "ebffaa28-f3ef-47f3-9add-e0df1ca50273")
+		)
+		(instances
+			(project "solar_charger"
+				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 44.45 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cef07e9-3089-4c24-ac2a-1ac543f8de65")
+		(property "Reference" "J1"
+			(at 45.085 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 45.085 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
+			(at 44.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 44.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96324ac1-0283-4bc4-a98d-31e27d45d8e9")
+		)
+		(pin "1"
+			(uuid "c6532cae-cb3a-4e55-88aa-be7105003ddd")
+		)
+		(instances
+			(project ""
+				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 113.03 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a19c4e84-5e1f-4085-8512-bdb269332cba")
+		(property "Reference" "J2"
+			(at 114.3 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 102.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
+			(at 113.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 113.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e32664d5-a3d8-4e4c-b45d-5cf65c668576")
+		)
+		(pin "1"
+			(uuid "bbda479c-a054-4ea1-bfea-08e274b0acaf")
+		)
+		(instances
+			(project "solar_charger"
+				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Marcus-PCB-Library:AO3415")
+		(at 87.63 48.26 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a907dc4d-9c9f-47be-a669-eab3d775ffa8")
+		(property "Reference" "Q1"
+			(at 87.63 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3415"
+			(at 87.63 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X125-3N"
+			(at -11.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3415.pdf"
+			(at -111.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V P-Channel MOSFET"
+			(at 100.965 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at -311.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at -411.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at -511.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at -611.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AO3415"
+			(at -711.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0f69def-9479-490f-8cff-5f0bde54103e")
+		)
+		(pin "3"
+			(uuid "2b5f2864-b8d9-4b9b-bdd7-2020494a5621")
+		)
+		(pin "2"
+			(uuid "de319ab5-f40a-4e19-b266-26d14c60a99e")
+		)
+		(instances
+			(project ""
+				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Marcus-PCB-Library:AO3416")
+		(at 146.05 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adc9a52a-e27c-4bcb-ae0a-9f49b1c8e6ab")
+		(property "Reference" "Q2"
+			(at 146.05 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3416"
+			(at 146.05 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 133.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3416.pdf"
+			(at 130.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V Vds, 6.5A Id, N-Channel MOSFET, SOT-23, 22mΩ"
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31a6969a-86c6-4470-95d7-c4cca12d553d")
+		)
+		(pin "3"
+			(uuid "f79e4d15-831d-4d41-a476-df82ab9fbb1d")
+		)
+		(pin "2"
+			(uuid "86aab2df-621c-4637-b062-162a902625f7")
+		)
+		(instances
+			(project ""
+				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Marcus-PCB-Library:TLV803EB33VDBZR")
+		(at 123.19 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b281af22-823c-40ff-a4c6-38eaf0c2de43")
+		(property "Reference" "IC2"
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TLV803EB33VDBZR"
+			(at 152.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Marcus_Library:SOT95P237X112-3N"
+			(at 149.86 155.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/view/1260560/TI/TLV803EB33VDBZR.html"
+			(at 149.86 255.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage supervisor 3.3V; active-low; open-drain; SOT-23-3"
+			(at 128.905 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 149.86 455.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TLV803EB33VDBZR"
+			(at 149.86 555.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV803EB33VDBZR?qs=81r%252BiQLm7BTmCXt3yi%252BCAg%3D%3D"
+			(at 149.86 655.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 149.86 755.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLV803EB33VDBZR"
+			(at 149.86 855.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8e525774-0cad-4625-875c-c55007139605")
+		)
+		(pin "1"
+			(uuid "7b353b22-379c-4530-b0cb-e77275e2a2a9")
+		)
+		(pin "2"
+			(uuid "f77a86da-01b0-4d2e-a951-f6204cb36224")
+		)
+		(instances
+			(project ""
+				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 74.93 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddefa0cb-ee40-4164-959a-225ab6798355")
+		(property "Reference" "#PWR3"
+			(at 74.93 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 74.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65db5d25-9db6-4219-92be-5e80285e26e2")
+		)
+		(instances
+			(project "solar_charger"
+				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
+					(reference "#PWR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Marcus-PCB-Library:TLV809EA30DBZR")
 		(at 59.69 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1675b572-acf2-4950-9826-ed2aa56f1fb4")
+		(uuid "e4339b52-432d-4b08-8bc5-8a456f3405ef")
 		(property "Reference" "IC1"
-			(at 80.01 68.58 0)
+			(at 81.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +3419,7 @@
 			)
 		)
 		(property "Value" "TLV809EA30DBZR"
-			(at 92.71 71.12 0)
+			(at 95.25 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,1012 +3507,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "a087d64c-c300-4c30-a441-f03dac16eadf")
-		)
-		(pin "2"
-			(uuid "41df5236-225b-4dda-8adf-b409f57eb1c6")
+			(uuid "0bd99978-43b8-49fb-8e8f-f31020963c32")
 		)
 		(pin "3"
-			(uuid "a8786c1c-6d95-43cd-a65a-0d0681648dc4")
+			(uuid "309cdf7b-7d68-4135-9057-5570103bc6cb")
+		)
+		(pin "2"
+			(uuid "2d23930f-fab8-43a5-bf5c-eb8ae88eee7f")
 		)
 		(instances
 			(project ""
 				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 107.95 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b6c42ca-e373-4e2c-ae3a-b8807a71b4aa")
-		(property "Reference" "#PWR01"
-			(at 107.95 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 107.95 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 107.95 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8fa90427-1efe-4085-9bdd-57e7d8fcbeea")
-		)
-		(instances
-			(project "solar_charger"
-				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 133.35 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ead3795-fde5-4475-9ae6-8b9b62db89e1")
-		(property "Reference" "#PWR02"
-			(at 133.35 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 133.35 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 133.35 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef85b609-3099-496b-b534-4815fb4d5483")
-		)
-		(instances
-			(project "solar_charger"
-				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Marcus_IC_library:AO3416")
-		(at 146.05 81.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "385e52c0-3cda-4852-9ada-f377184ba9e6")
-		(property "Reference" "Q2"
-			(at 146.05 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO3416"
-			(at 146.05 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 133.35 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3416.pdf"
-			(at 130.81 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "20V Vds, 6.5A Id, N-Channel MOSFET, SOT-23, 22mΩ"
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1ecef6a-9991-474b-acc5-bd1aafbd6fa8")
-		)
-		(pin "3"
-			(uuid "fe0bb114-2324-4ecf-9db4-ca88f36e44a0")
-		)
-		(pin "2"
-			(uuid "25c5b663-2f95-40dd-ac9d-da2c7174fa56")
-		)
-		(instances
-			(project "solar_charger"
-				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 181.61 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a2d0642-0ae1-4e64-b5e9-06b4bf65723c")
-		(property "Reference" "J3"
-			(at 182.88 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_to_ESP32_voltage_regulator"
-			(at 171.45 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
-			(at 181.61 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 181.61 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9aaadb98-9fed-4dd0-ad1a-803da3b383a5")
-		)
-		(pin "1"
-			(uuid "a9183186-e0f8-4238-a902-8a8e6c0e6836")
-		)
-		(instances
-			(project "solar_charger"
-				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Marcus_Library:TLV803EB33VDBZR")
-		(at 123.19 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c681c07-4bce-4e14-ba96-dadce04d21d3")
-		(property "Reference" "IC2"
-			(at 138.43 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TLV803EB33VDBZR"
-			(at 152.4 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Marcus_Library:SOT95P237X112-3N"
-			(at 149.86 155.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/view/1260560/TI/TLV803EB33VDBZR.html"
-			(at 149.86 255.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage supervisor 3.3V; active-low; open-drain; SOT-23-3"
-			(at 128.905 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.12"
-			(at 149.86 455.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TLV803EB33VDBZR"
-			(at 149.86 555.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV803EB33VDBZR?qs=81r%252BiQLm7BTmCXt3yi%252BCAg%3D%3D"
-			(at 149.86 655.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 149.86 755.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TLV803EB33VDBZR"
-			(at 149.86 855.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7eec9c49-a095-419a-b478-e7f32207054e")
-		)
-		(pin "3"
-			(uuid "6a264969-3bef-4627-8768-a05526746edb")
-		)
-		(pin "1"
-			(uuid "5d374f68-1323-4c6f-a0c1-b5669c9f957f")
-		)
-		(instances
-			(project ""
-				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 133.35 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f04c4d8-a2bb-4842-bc8d-f42003143d33")
-		(property "Reference" "#PWR04"
-			(at 133.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 133.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 133.35 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a99429b-d8de-49aa-b09b-8185454af6ab")
-		)
-		(instances
-			(project ""
-				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 74.93 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f369a44-7291-4896-a44f-e4d5e71db6b3")
-		(property "Reference" "#PWR05"
-			(at 74.93 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 74.93 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 74.93 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33d65835-134d-4624-9db0-a2b5d515291a")
-		)
-		(instances
-			(project "solar_charger"
-				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 62.23 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "708c5b3b-887e-4fa3-9609-555f9d94d7a5")
-		(property "Reference" "C1"
-			(at 66.04 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 66.04 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 63.1952 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 62.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7daa1f9-a23d-40f6-a4a4-f97c16bb3a10")
-		)
-		(pin "2"
-			(uuid "768abd18-0e69-4530-9502-6e331ba424ff")
-		)
-		(instances
-			(project ""
-				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 121.92 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80676c6f-7485-4a47-bcb1-5062d453df15")
-		(property "Reference" "C2"
-			(at 125.73 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 125.73 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 122.8852 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 121.92 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61efc579-4b42-4923-bb4e-1c34fedad429")
-		)
-		(pin "2"
-			(uuid "ebffaa28-f3ef-47f3-9add-e0df1ca50273")
-		)
-		(instances
-			(project "solar_charger"
-				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 44.45 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cef07e9-3089-4c24-ac2a-1ac543f8de65")
-		(property "Reference" "J1"
-			(at 45.085 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_solar_cell"
-			(at 45.085 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
-			(at 44.45 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 44.45 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "96324ac1-0283-4bc4-a98d-31e27d45d8e9")
-		)
-		(pin "1"
-			(uuid "c6532cae-cb3a-4e55-88aa-be7105003ddd")
-		)
-		(instances
-			(project ""
-				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 113.03 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a19c4e84-5e1f-4085-8512-bdb269332cba")
-		(property "Reference" "J2"
-			(at 114.3 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_battery"
-			(at 102.87 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
-			(at 113.03 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 113.03 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e32664d5-a3d8-4e4c-b45d-5cf65c668576")
-		)
-		(pin "1"
-			(uuid "bbda479c-a054-4ea1-bfea-08e274b0acaf")
-		)
-		(instances
-			(project "solar_charger"
-				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Marcus_Library:SBR2U30P1-7")
-		(at 54.61 44.45 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bffc6936-9628-42e2-bf11-fd30f826236b")
-		(property "Reference" "D1"
-			(at 62.23 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SBR2U30P1-7"
-			(at 62.23 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Marcus_Library:SODFL3718X100N"
-			(at 66.04 -53.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/sbr2u30p1-7/diodes-incorporated"
-			(at 66.04 -153.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky Avalanche Diode, 30V 2A"
-			(at 65.405 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 66.04 -353.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-SBR2U30P1-7"
-			(at 66.04 -453.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR2U30P1-7?qs=DwnLFiA34IJMuJCpilI3ag%3D%3D"
-			(at 66.04 -553.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 66.04 -653.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR2U30P1-7"
-			(at 66.04 -753.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a943f5ae-1d47-4a41-8544-d07f7c5f7bc6")
-		)
-		(pin "2"
-			(uuid "a3605880-fa40-4eb7-b4c6-150550eecb97")
-		)
-		(instances
-			(project ""
-				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 74.93 73.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddefa0cb-ee40-4164-959a-225ab6798355")
-		(property "Reference" "#PWR03"
-			(at 74.93 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 74.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 74.93 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65db5d25-9db6-4219-92be-5e80285e26e2")
-		)
-		(instances
-			(project "solar_charger"
-				(path "/b4ad4beb-8009-4b05-89b3-ee77575de955"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3465,7 +3543,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "R"
 			(at 97.79 54.6099 0)
 			(effects
 				(font

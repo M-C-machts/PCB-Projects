@@ -1,0 +1,201 @@
+(footprint "SODFL3718X100N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SBR2U30P1-7")
+	(tags "Diode")
+	(property "Reference" "D**"
+		(at 0.5 0 0)
+		(layer "F.SilkS")
+		(uuid "02ce82f1-2359-42f1-9dac-0d7d4e296bff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SODFL3718X100N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bb06d379-14c9-474d-8258-b99e767fbf9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fd1c886-07f5-4cdd-addd-34e945964c2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "098db43f-75fb-4be3-9903-29269137af13")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.15 -0.89)
+		(end 1.4 -0.89)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19036a75-07cf-4146-8ca7-c999ed1a3258")
+	)
+	(fp_line
+		(start -1.4 0.89)
+		(end 1.4 0.89)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c77d9e32-cb89-457a-a258-f1eed3663627")
+	)
+	(fp_line
+		(start -2.3 -1.115)
+		(end 2.3 -1.115)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62cbcc74-af94-4b74-9e14-30618deb01e3")
+	)
+	(fp_line
+		(start -2.3 1.115)
+		(end -2.3 -1.115)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "603da4dd-5eeb-4072-a45b-343d27816a53")
+	)
+	(fp_line
+		(start 2.3 -1.115)
+		(end 2.3 1.115)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8da34f3c-1dff-4fa7-bab6-aeabd5ce8680")
+	)
+	(fp_line
+		(start 2.3 1.115)
+		(end -2.3 1.115)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4b8d0b8-7d27-49aa-aefa-95317fa5bfb8")
+	)
+	(fp_line
+		(start -1.4 -0.89)
+		(end 1.4 -0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12b3cad3-9094-424a-b5ab-1278a95802b9")
+	)
+	(fp_line
+		(start -1.4 -0.34)
+		(end -0.85 -0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af87c95a-8137-4ff8-ae01-f70beb8a3a23")
+	)
+	(fp_line
+		(start -1.4 0.89)
+		(end -1.4 -0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b4df4b5-a90f-4fa3-870d-891b68984a99")
+	)
+	(fp_line
+		(start 1.4 -0.89)
+		(end 1.4 0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e83087fc-7171-4a95-a07f-9a2b346a4728")
+	)
+	(fp_line
+		(start 1.4 0.89)
+		(end -1.4 0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91e4f335-ff30-4e11-9956-9540ebf8c20f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 0)
+		(layer "F.Fab")
+		(uuid "1f4597f0-d915-4b37-a924-24dbab42c755")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.6 0)
+		(size 1.1 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c25f1a86-7d50-478d-897e-198acbc212cf")
+	)
+	(pad "2" smd rect
+		(at 1.6 0)
+		(size 1.1 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "77e38a87-60f3-4cfc-bfb1-0b268b9cfe5d")
+	)
+	(embedded_fonts no)
+	(model "C:\\PCB_Stuff\\Marcus_Library\\SamacSys_Parts.3dshapes\\SBR2U30P1-7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
