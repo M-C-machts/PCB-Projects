@@ -54,4 +54,16 @@ K
 F https://www.arrow.com/en/products/ao3416/alpha-and-omega-semiconductor
 $ENDCMP
 #
+$CMP TPS3700DDCR
+D TPS3700 18V Window Supervisor with Internal Ref for Overvoltage and Undervoltage Detection
+K
+F http://www.ti.com/lit/gpn/tps3700
+$ENDCMP
+#
+$CMP TC33X-2-104E
+D Trimmer Resistors - SMD 3MM 100KOHMS 25% 0.1WATT OPEN FRM
+K
+F https://www.bourns.com/docs/Product-Datasheets/TC33.pdf
+$ENDCMP
+#
 #End Doc Library
