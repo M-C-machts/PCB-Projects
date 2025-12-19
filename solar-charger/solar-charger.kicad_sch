@@ -1628,7 +1628,7 @@
 	)
 	(text "27,71k"
 		(exclude_from_sim no)
-		(at 58.42 92.71 0)
+		(at 57.15 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1638,7 +1638,7 @@
 	)
 	(text "34,8k"
 		(exclude_from_sim no)
-		(at 71.12 92.71 0)
+		(at 74.93 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1647,74 +1647,74 @@
 		(uuid "6cf4fd79-0dc1-43c6-ae3a-e6fb778b9bcd")
 	)
 	(junction
-		(at 119.38 58.42)
+		(at 119.38 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31228e73-d1cf-4eda-9787-751edd21b82d")
 	)
 	(junction
-		(at 58.42 104.14)
+		(at 58.42 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4308cd23-afa0-4b81-ad96-142a8fc5b3f2")
 	)
 	(junction
-		(at 90.17 82.55)
+		(at 90.17 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4676c3bb-14d5-42b3-b8f1-e6a754a22810")
 	)
 	(junction
-		(at 71.12 104.14)
+		(at 71.12 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "502cd947-63f7-4ca2-a55c-33b8a44be126")
 	)
 	(junction
-		(at 90.17 59.69)
+		(at 90.17 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bd61478-a2f5-4d7c-8b8b-c93d7771c1b4")
 	)
 	(junction
-		(at 102.87 44.45)
+		(at 102.87 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cff3ffd-5519-456a-8d83-403b06ef0060")
 	)
 	(junction
-		(at 67.31 74.93)
+		(at 67.31 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9be7d083-f787-4060-aa47-0cd48a781043")
 	)
 	(junction
-		(at 54.61 69.85)
+		(at 54.61 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c804ff9-07c9-442a-9b51-84e02815c4c6")
 	)
 	(junction
-		(at 137.16 44.45)
+		(at 137.16 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9d1ef58-38f4-40e9-9047-aecad1b41b79")
 	)
 	(junction
-		(at 132.08 44.45)
+		(at 132.08 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3d6b390-43d5-4c23-88fd-8ea4846faf6e")
 	)
 	(junction
-		(at 147.32 58.42)
+		(at 147.32 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "febb94c8-259e-4276-b0a8-3b428b7de664")
 	)
 	(wire
 		(pts
-			(xy 67.31 74.93) (xy 77.47 74.93)
+			(xy 67.31 100.33) (xy 77.47 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1724,7 +1724,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 97.79) (xy 71.12 104.14)
+			(xy 71.12 123.19) (xy 71.12 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1734,7 +1734,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 46.99) (xy 137.16 44.45)
+			(xy 137.16 72.39) (xy 137.16 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1744,7 +1744,27 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 83.82) (xy 219.71 64.77)
+			(xy 163.83 69.85) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16418876-7f80-44e5-8d0e-1c2a2ed44c7e")
+	)
+	(wire
+		(pts
+			(xy 172.72 72.39) (xy 176.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "244ddea3-a9f1-4c1e-a458-fe7b807da589")
+	)
+	(wire
+		(pts
+			(xy 172.72 93.98) (xy 172.72 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1754,7 +1774,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 104.14) (xy 58.42 109.22)
+			(xy 58.42 129.54) (xy 58.42 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1764,7 +1784,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 69.85) (xy 119.38 69.85)
+			(xy 102.87 95.25) (xy 119.38 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1774,7 +1794,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 74.93) (xy 67.31 78.74)
+			(xy 67.31 100.33) (xy 67.31 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1784,7 +1804,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 44.45) (xy 137.16 44.45)
+			(xy 132.08 69.85) (xy 137.16 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1794,7 +1814,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 67.31) (xy 74.93 82.55)
+			(xy 74.93 92.71) (xy 74.93 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1804,7 +1824,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 59.69) (xy 90.17 62.23)
+			(xy 90.17 85.09) (xy 90.17 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1814,7 +1834,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 78.74) (xy 54.61 69.85)
+			(xy 54.61 104.14) (xy 54.61 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1824,7 +1844,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 58.42) (xy 102.87 58.42)
+			(xy 119.38 83.82) (xy 102.87 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1834,7 +1854,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 104.14) (xy 58.42 104.14)
+			(xy 54.61 129.54) (xy 58.42 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1844,7 +1864,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 52.07) (xy 67.31 54.61)
+			(xy 67.31 77.47) (xy 67.31 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1854,7 +1874,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 58.42) (xy 147.32 58.42)
+			(xy 137.16 83.82) (xy 147.32 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1864,7 +1884,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 52.07) (xy 54.61 54.61)
+			(xy 54.61 77.47) (xy 54.61 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1874,7 +1894,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 62.23) (xy 54.61 69.85)
+			(xy 54.61 87.63) (xy 54.61 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1884,7 +1904,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 44.45) (xy 132.08 44.45)
+			(xy 124.46 69.85) (xy 132.08 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1894,7 +1914,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 97.79) (xy 58.42 104.14)
+			(xy 58.42 123.19) (xy 58.42 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1904,7 +1924,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 44.45) (xy 114.3 44.45)
+			(xy 113.03 69.85) (xy 114.3 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1914,7 +1934,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 44.45) (xy 102.87 44.45)
+			(xy 45.72 69.85) (xy 102.87 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1924,7 +1944,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 58.42) (xy 147.32 52.07)
+			(xy 163.83 69.85) (xy 163.83 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce13a9f-e5c3-4d05-bdea-4b4f9d8e0060")
+	)
+	(wire
+		(pts
+			(xy 147.32 83.82) (xy 147.32 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1934,7 +1964,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 62.23) (xy 67.31 74.93)
+			(xy 67.31 87.63) (xy 67.31 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1944,7 +1974,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 46.99) (xy 102.87 44.45)
+			(xy 102.87 72.39) (xy 102.87 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1954,7 +1984,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 44.45) (xy 105.41 44.45)
+			(xy 102.87 69.85) (xy 105.41 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1964,7 +1994,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 104.14) (xy 71.12 104.14)
+			(xy 67.31 129.54) (xy 71.12 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1974,7 +2004,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 49.53) (xy 219.71 62.23)
+			(xy 172.72 59.69) (xy 172.72 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1984,7 +2014,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 82.55) (xy 90.17 82.55)
+			(xy 74.93 107.95) (xy 90.17 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1994,7 +2024,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 63.5) (xy 45.72 44.45)
+			(xy 163.83 115.57) (xy 163.83 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7447602c-672c-489c-8e20-be38fa4b8d62")
+	)
+	(wire
+		(pts
+			(xy 45.72 88.9) (xy 45.72 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2004,7 +2044,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 86.36) (xy 67.31 91.44)
+			(xy 67.31 111.76) (xy 67.31 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2014,7 +2054,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 104.14) (xy 71.12 109.22)
+			(xy 71.12 129.54) (xy 71.12 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2024,17 +2064,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 44.45) (xy 176.53 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c60ba1e-6338-4b83-8074-d63896b28c0f")
-	)
-	(wire
-		(pts
-			(xy 137.16 54.61) (xy 137.16 58.42)
+			(xy 137.16 80.01) (xy 137.16 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2044,7 +2074,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 54.61) (xy 102.87 58.42)
+			(xy 102.87 80.01) (xy 102.87 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2054,7 +2084,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 44.45) (xy 142.24 44.45)
+			(xy 137.16 69.85) (xy 142.24 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2064,7 +2094,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 74.93) (xy 147.32 74.93)
+			(xy 176.53 115.57) (xy 163.83 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3103bd6-c1b7-44a9-bb62-1961b5b97ac1")
+	)
+	(wire
+		(pts
+			(xy 102.87 100.33) (xy 147.32 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2074,17 +2114,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 64.77) (xy 176.53 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbe6a4ca-aa23-47ea-97c2-aaedf17cb322")
-	)
-	(wire
-		(pts
-			(xy 119.38 52.07) (xy 119.38 58.42)
+			(xy 119.38 77.47) (xy 119.38 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2094,7 +2124,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 74.93) (xy 147.32 58.42)
+			(xy 147.32 100.33) (xy 147.32 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2104,7 +2134,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 82.55) (xy 90.17 109.22)
+			(xy 90.17 107.95) (xy 90.17 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2114,7 +2144,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 86.36) (xy 54.61 91.44)
+			(xy 163.83 113.03) (xy 176.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9dfcea2-ae09-46de-9c7e-12588f920d08")
+	)
+	(wire
+		(pts
+			(xy 54.61 111.76) (xy 54.61 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2124,7 +2164,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 59.69) (xy 90.17 59.69)
+			(xy 74.93 85.09) (xy 90.17 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2134,7 +2174,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 66.04) (xy 45.72 109.22)
+			(xy 45.72 91.44) (xy 45.72 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2144,7 +2184,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 69.85) (xy 77.47 69.85)
+			(xy 54.61 95.25) (xy 77.47 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2154,7 +2194,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 69.85) (xy 119.38 58.42)
+			(xy 172.72 74.93) (xy 176.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa61f89-4ca1-44fc-942a-704026bad833")
+	)
+	(wire
+		(pts
+			(xy 119.38 95.25) (xy 119.38 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2164,17 +2214,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 44.45) (xy 176.53 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f725e09b-9fd5-4ed1-8d0e-5e908d128caf")
-	)
-	(wire
-		(pts
-			(xy 90.17 57.15) (xy 90.17 59.69)
+			(xy 90.17 82.55) (xy 90.17 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2184,7 +2224,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 34.29) (xy 132.08 44.45)
+			(xy 132.08 59.69) (xy 132.08 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2194,7 +2234,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 132.08 34.29 0)
+		(at 132.08 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2203,7 +2243,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ee3547c-169e-4d33-a824-4465faf1c35c")
 		(property "Reference" "#PWR6"
-			(at 132.08 38.1 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2252,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 132.08 29.21 0)
+			(at 132.08 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +2260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 34.29 0)
+			(at 132.08 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +2269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 34.29 0)
+			(at 132.08 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,7 +2278,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 132.08 34.29 0)
+			(at 132.08 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +2300,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 219.71 49.53 0)
+		(at 172.72 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2269,7 +2309,7 @@
 		(fields_autoplaced yes)
 		(uuid "2165d7e7-6b58-4134-ae3d-304aaf841c01")
 		(property "Reference" "#PWR02"
-			(at 219.71 53.34 0)
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,7 +2318,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 219.71 44.45 0)
+			(at 172.72 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,7 +2326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 49.53 0)
+			(at 172.72 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,7 +2335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 49.53 0)
+			(at 172.72 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2304,7 +2344,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 219.71 49.53 0)
+			(at 172.72 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +2366,7 @@
 	)
 	(symbol
 		(lib_id "Marcus-PCB-Library:2x-Header-Pin-Through-Hole")
-		(at 176.53 62.23 0)
+		(at 176.53 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2334,7 +2374,7 @@
 		(dnp no)
 		(uuid "25ddfc92-4f02-438a-8bbc-df30f0609ed8")
 		(property "Reference" "J3"
-			(at 186.69 62.2299 0)
+			(at 186.69 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2383,7 @@
 			)
 		)
 		(property "Value" "power out"
-			(at 186.69 64.7699 0)
+			(at 186.69 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2392,7 @@
 			)
 		)
 		(property "Footprint" "Marcus-PCB-Library:10129378902001BLF"
-			(at 193.04 157.15 0)
+			(at 193.04 207.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2402,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10129378.pdf"
-			(at 193.04 257.15 0)
+			(at 193.04 307.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,7 +2412,7 @@
 			)
 		)
 		(property "Description" "2x Header, Pin 2.54mm, Header, Through Hole, Single Row"
-			(at 175.26 51.435 0)
+			(at 175.26 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2421,7 @@
 			)
 		)
 		(property "Height" "8.58"
-			(at 193.04 457.15 0)
+			(at 193.04 507.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2431,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 193.04 557.15 0)
+			(at 193.04 607.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,7 +2441,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 193.04 657.15 0)
+			(at 193.04 707.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2451,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol Communications Solutions"
-			(at 193.04 757.15 0)
+			(at 193.04 807.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2461,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "10129378-902001BLF"
-			(at 193.04 857.15 0)
+			(at 193.04 907.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,7 +2487,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 58.42 0)
+		(at 54.61 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2456,7 +2496,7 @@
 		(fields_autoplaced yes)
 		(uuid "32db68c8-bf4c-480b-b601-05ffbabbd63f")
 		(property "Reference" "R3"
-			(at 57.15 57.1499 0)
+			(at 57.15 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,8 +2504,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470k"
-			(at 57.15 59.6899 0)
+		(property "Value" "680k"
+			(at 57.15 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,7 +2514,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 52.832 58.42 90)
+			(at 52.832 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +2523,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 58.42 0)
+			(at 54.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,7 +2532,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 58.42 0)
+			(at 54.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2557,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 137.16 50.8 0)
+		(at 137.16 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2526,7 +2566,7 @@
 		(fields_autoplaced yes)
 		(uuid "38820ee6-662d-4896-9096-6753d5303acc")
 		(property "Reference" "R2"
-			(at 139.7 49.5299 0)
+			(at 139.7 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,8 +2574,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "51k"
-			(at 139.7 52.0699 0)
+		(property "Value" "470k"
+			(at 139.7 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +2584,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 135.382 50.8 90)
+			(at 135.382 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2593,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 50.8 0)
+			(at 137.16 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +2602,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 137.16 50.8 0)
+			(at 137.16 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,8 +2627,7 @@
 	)
 	(symbol
 		(lib_id "Marcus-PCB-Library:2x-Header-Pin-Through-Hole")
-		(at 219.71 62.23 0)
-		(mirror y)
+		(at 176.53 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2596,7 +2635,7 @@
 		(dnp no)
 		(uuid "4d7ed60a-a5fd-4817-b9ba-48032c58750e")
 		(property "Reference" "J2"
-			(at 209.55 62.2299 0)
+			(at 186.69 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2644,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 209.55 64.7699 0)
+			(at 186.69 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2653,7 @@
 			)
 		)
 		(property "Footprint" "Marcus-PCB-Library:10129378902001BLF"
-			(at 203.2 157.15 0)
+			(at 193.04 167.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,7 +2663,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10129378.pdf"
-			(at 203.2 257.15 0)
+			(at 193.04 267.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,7 +2673,7 @@
 			)
 		)
 		(property "Description" "2x Header, Pin 2.54mm, Header, Through Hole, Single Row"
-			(at 220.98 51.435 0)
+			(at 175.26 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2682,7 @@
 			)
 		)
 		(property "Height" "8.58"
-			(at 203.2 457.15 0)
+			(at 193.04 467.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2692,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 203.2 557.15 0)
+			(at 193.04 567.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2663,7 +2702,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 203.2 657.15 0)
+			(at 193.04 667.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +2712,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol Communications Solutions"
-			(at 203.2 757.15 0)
+			(at 193.04 767.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2722,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "10129378-902001BLF"
-			(at 203.2 857.15 0)
+			(at 193.04 867.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2709,7 +2748,7 @@
 	)
 	(symbol
 		(lib_id "Marcus-PCB-Library:2x-Header-Pin-Through-Hole")
-		(at 45.72 63.5 0)
+		(at 45.72 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2718,7 +2757,7 @@
 		(dnp no)
 		(uuid "52d9fc5b-c583-4979-a907-97597373704a")
 		(property "Reference" "J1"
-			(at 35.56 63.4999 0)
+			(at 35.56 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +2766,7 @@
 			)
 		)
 		(property "Value" "Solar Cell"
-			(at 35.56 66.0399 0)
+			(at 35.56 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2736,7 +2775,7 @@
 			)
 		)
 		(property "Footprint" "Marcus-PCB-Library:10129378902001BLF"
-			(at 29.21 158.42 0)
+			(at 29.21 183.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,7 +2785,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10129378.pdf"
-			(at 29.21 258.42 0)
+			(at 29.21 283.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +2795,7 @@
 			)
 		)
 		(property "Description" "2x Header, Pin 2.54mm, Header, Through Hole, Single Row"
-			(at 46.99 52.705 0)
+			(at 46.99 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +2804,7 @@
 			)
 		)
 		(property "Height" "8.58"
-			(at 29.21 458.42 0)
+			(at 29.21 483.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,7 +2814,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 29.21 558.42 0)
+			(at 29.21 583.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,7 +2824,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 29.21 658.42 0)
+			(at 29.21 683.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2834,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol Communications Solutions"
-			(at 29.21 758.42 0)
+			(at 29.21 783.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2844,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "10129378-902001BLF"
-			(at 29.21 858.42 0)
+			(at 29.21 883.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +2870,7 @@
 	)
 	(symbol
 		(lib_id "Marcus-PCB-Library:SBR2U30P1-7")
-		(at 102.87 44.45 0)
+		(at 102.87 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2840,7 +2879,7 @@
 		(fields_autoplaced yes)
 		(uuid "52fbe378-4677-4190-956c-fc131474d1e1")
 		(property "Reference" "D1"
-			(at 109.5375 38.1 0)
+			(at 109.5375 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,7 +2887,7 @@
 			)
 		)
 		(property "Value" "SBR2U30P1-7"
-			(at 109.5375 40.64 0)
+			(at 109.5375 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +2895,7 @@
 			)
 		)
 		(property "Footprint" "Marcus-PCB-Library:SODFL3718X100N"
-			(at 114.3 141.91 0)
+			(at 114.3 167.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +2905,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/sbr2u30p1-7/diodes-incorporated"
-			(at 114.3 241.91 0)
+			(at 114.3 267.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,7 +2915,7 @@
 			)
 		)
 		(property "Description" "Schottky Avalanche Diode, 30V 2A"
-			(at 113.665 37.465 0)
+			(at 113.665 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,7 +2924,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 114.3 441.91 0)
+			(at 114.3 467.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,7 +2934,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-SBR2U30P1-7"
-			(at 114.3 541.91 0)
+			(at 114.3 567.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +2944,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR2U30P1-7?qs=DwnLFiA34IJMuJCpilI3ag%3D%3D"
-			(at 114.3 641.91 0)
+			(at 114.3 667.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,7 +2954,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 114.3 741.91 0)
+			(at 114.3 767.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +2964,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SBR2U30P1-7"
-			(at 114.3 841.91 0)
+			(at 114.3 867.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2951,7 +2990,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 90.17 57.15 0)
+		(at 90.17 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2960,7 +2999,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f369a44-7291-4896-a44f-e4d5e71db6b3")
 		(property "Reference" "#PWR5"
-			(at 90.17 60.96 0)
+			(at 90.17 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,7 +3008,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 90.17 52.07 0)
+			(at 90.17 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +3016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 57.15 0)
+			(at 90.17 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +3025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 57.15 0)
+			(at 90.17 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +3034,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 90.17 57.15 0)
+			(at 90.17 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3056,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 82.55 0)
+		(at 54.61 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3026,7 +3065,7 @@
 		(fields_autoplaced yes)
 		(uuid "6256b23d-d996-4720-b3bf-d40812d822ae")
 		(property "Reference" "R4"
-			(at 57.15 81.2799 0)
+			(at 57.15 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,8 +3073,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
-			(at 57.15 83.8199 0)
+		(property "Value" "51k"
+			(at 57.15 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3044,7 +3083,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 52.832 82.55 90)
+			(at 52.832 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3092,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 82.55 0)
+			(at 54.61 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3101,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 82.55 0)
+			(at 54.61 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3087,7 +3126,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 58.42 109.22 180)
+		(at 58.42 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3096,7 +3135,7 @@
 		(fields_autoplaced yes)
 		(uuid "66863506-bdea-43b7-a43a-fb6a85aff831")
 		(property "Reference" "#PWR01"
-			(at 58.42 105.41 0)
+			(at 58.42 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3105,7 +3144,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 58.42 114.3 0)
+			(at 58.42 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,7 +3152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 109.22 0)
+			(at 58.42 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3122,7 +3161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 109.22 0)
+			(at 58.42 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3131,7 +3170,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 58.42 109.22 0)
+			(at 58.42 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +3192,7 @@
 	)
 	(symbol
 		(lib_id "Marcus-PCB-Library:TPS3700DDCR")
-		(at 77.47 69.85 0)
+		(at 77.47 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3162,7 +3201,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f93ed5e-6727-4059-8d9a-f394b93c95b4")
 		(property "Reference" "IC1"
-			(at 92.3133 62.23 0)
+			(at 92.3133 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +3210,7 @@
 			)
 		)
 		(property "Value" "TPS3700DDCR"
-			(at 92.3133 64.77 0)
+			(at 92.3133 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,7 +3219,7 @@
 			)
 		)
 		(property "Footprint" "Marcus-PCB-Library:SOT98P280X110-6N"
-			(at 101.6 164.77 0)
+			(at 101.6 190.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,7 +3229,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/tps3700"
-			(at 101.6 264.77 0)
+			(at 101.6 290.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +3239,7 @@
 			)
 		)
 		(property "Description" "TPS3700 18V Window Supervisor with Internal Ref for Overvoltage and Undervoltage Detection"
-			(at 79.375 60.325 0)
+			(at 79.375 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +3248,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 101.6 464.77 0)
+			(at 101.6 490.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3258,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TPS3700DDCR"
-			(at 101.6 564.77 0)
+			(at 101.6 590.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +3268,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS3700DDCR?qs=mNuCSSXMdBz5rDLbdTsfrQ%3D%3D"
-			(at 101.6 664.77 0)
+			(at 101.6 690.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +3278,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 101.6 764.77 0)
+			(at 101.6 790.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,7 +3288,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TPS3700DDCR"
-			(at 101.6 864.77 0)
+			(at 101.6 890.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3287,7 +3326,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 176.53 83.82 180)
+		(at 163.83 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3296,7 +3335,7 @@
 		(fields_autoplaced yes)
 		(uuid "704c3833-3ddc-4b81-b742-0c0329865fae")
 		(property "Reference" "#PWR08"
-			(at 176.53 80.01 0)
+			(at 163.83 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3305,7 +3344,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 176.53 88.9 0)
+			(at 163.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,7 +3352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 83.82 0)
+			(at 163.83 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,7 +3361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 83.82 0)
+			(at 163.83 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +3370,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 176.53 83.82 0)
+			(at 163.83 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +3392,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 74.93 63.5 0)
+		(at 74.93 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3361,7 +3400,7 @@
 		(dnp no)
 		(uuid "708c5b3b-887e-4fa3-9609-555f9d94d7a5")
 		(property "Reference" "C1"
-			(at 76.2 62.2299 0)
+			(at 76.2 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3409,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 76.2 64.7699 0)
+			(at 76.2 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,7 +3418,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 75.8952 67.31 0)
+			(at 75.8952 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 63.5 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,7 +3436,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 74.93 63.5 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3461,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 54.61 52.07 0)
+		(at 54.61 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3431,7 +3470,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a40e6fa-e296-4a99-a6a0-3877b0875aa1")
 		(property "Reference" "#PWR010"
-			(at 54.61 55.88 0)
+			(at 54.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3479,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 54.61 46.99 0)
+			(at 54.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3448,7 +3487,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 52.07 0)
+			(at 54.61 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3457,7 +3496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 52.07 0)
+			(at 54.61 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,7 +3505,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 54.61 52.07 0)
+			(at 54.61 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,7 +3527,7 @@
 	)
 	(symbol
 		(lib_id "Marcus-PCB-Library:AO3415")
-		(at 119.38 48.26 270)
+		(at 119.38 73.66 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3498,7 +3537,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ac06432-8941-4d6d-9751-aedff83e9ec1")
 		(property "Reference" "Q1"
-			(at 119.3951 36.83 90)
+			(at 119.3951 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +3545,7 @@
 			)
 		)
 		(property "Value" "AO3415"
-			(at 119.3951 39.37 90)
+			(at 119.3951 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,7 +3553,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 20.65 36.83 0)
+			(at 20.65 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3563,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3415.pdf"
-			(at -79.35 36.83 0)
+			(at -79.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +3573,7 @@
 			)
 		)
 		(property "Description" "-20V Vds, -4A Id, P-Channel MOSFET, SOT-23, 41mΩ"
-			(at 132.715 47.625 0)
+			(at 132.715 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,7 +3582,7 @@
 			)
 		)
 		(property "Height" "1.25"
-			(at -279.35 36.83 0)
+			(at -279.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,7 +3592,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at -379.35 36.83 0)
+			(at -379.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +3602,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at -479.35 36.83 0)
+			(at -479.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +3612,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at -579.35 36.83 0)
+			(at -579.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +3622,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AO3415"
-			(at -679.35 36.83 0)
+			(at -679.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,7 +3651,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 71.12 109.22 180)
+		(at 71.12 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3621,7 +3660,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b4af931-2c0f-4c41-8734-90566a661fee")
 		(property "Reference" "#PWR09"
-			(at 71.12 105.41 0)
+			(at 71.12 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3669,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 71.12 114.3 0)
+			(at 71.12 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,7 +3677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 109.22 0)
+			(at 71.12 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +3686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 109.22 0)
+			(at 71.12 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,7 +3695,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 71.12 109.22 0)
+			(at 71.12 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,7 +3717,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 45.72 109.22 180)
+		(at 45.72 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3687,7 +3726,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b2487bd-0677-44b3-a333-678f32a0a0af")
 		(property "Reference" "#PWR07"
-			(at 45.72 105.41 0)
+			(at 45.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +3735,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 45.72 114.3 0)
+			(at 45.72 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 109.22 0)
+			(at 45.72 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 109.22 0)
+			(at 45.72 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +3761,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 45.72 109.22 0)
+			(at 45.72 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,7 +3783,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 58.42 0)
+		(at 67.31 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3753,7 +3792,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e206130-bc14-4c88-ba01-09d1905ec28c")
 		(property "Reference" "R5"
-			(at 69.85 57.1499 0)
+			(at 69.85 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,8 +3800,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470k"
-			(at 69.85 59.6899 0)
+		(property "Value" "680k"
+			(at 69.85 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3810,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 65.532 58.42 90)
+			(at 65.532 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,7 +3819,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 58.42 0)
+			(at 67.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +3828,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 58.42 0)
+			(at 67.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,7 +3853,7 @@
 	)
 	(symbol
 		(lib_id "Marcus-PCB-Library:TC33X-trimmer")
-		(at 54.61 97.79 0)
+		(at 54.61 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3822,7 +3861,7 @@
 		(dnp no)
 		(uuid "bf07810f-3b22-412f-8f8c-e2d4b0243ec4")
 		(property "Reference" "VR1"
-			(at 52.07 91.44 0)
+			(at 52.07 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,7 +3870,7 @@
 			)
 		)
 		(property "Value" "50k"
-			(at 52.07 93.98 0)
+			(at 52.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +3879,7 @@
 			)
 		)
 		(property "Footprint" "Marcus-PCB-Library:TC33X2104E"
-			(at 63.5 200.33 0)
+			(at 63.5 225.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +3889,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
-			(at 63.5 300.33 0)
+			(at 63.5 325.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +3899,7 @@
 			)
 		)
 		(property "Description" "Trimmer Resistors - SMD 3MM 25% 0.1WATT OPEN FRM"
-			(at 58.42 89.535 0)
+			(at 58.42 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3869,7 +3908,7 @@
 			)
 		)
 		(property "Height" "1.5"
-			(at 63.5 500.33 0)
+			(at 63.5 525.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3918,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-TC33X-2-104E"
-			(at 63.5 600.33 0)
+			(at 63.5 625.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3928,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/TC33X-2-104E?qs=2hAPiALdQ0llyX8B3WfcDg%3D%3D"
-			(at 63.5 700.33 0)
+			(at 63.5 725.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +3938,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 63.5 800.33 0)
+			(at 63.5 825.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +3948,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TC33X-2-104E"
-			(at 63.5 900.33 0)
+			(at 63.5 925.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +3977,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 102.87 50.8 0)
+		(at 102.87 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3947,7 +3986,7 @@
 		(fields_autoplaced yes)
 		(uuid "c090358b-3d89-4d6b-80e9-50af9d665166")
 		(property "Reference" "R1"
-			(at 105.41 49.5299 0)
+			(at 105.41 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,8 +3994,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "51k"
-			(at 105.41 52.0699 0)
+		(property "Value" "470k"
+			(at 105.41 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,7 +4004,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 101.092 50.8 90)
+			(at 101.092 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +4013,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 50.8 0)
+			(at 102.87 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,7 +4022,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 102.87 50.8 0)
+			(at 102.87 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +4047,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 82.55 0)
+		(at 67.31 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4017,7 +4056,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf5186dd-f620-46ce-9c86-1fdfb9940bac")
 		(property "Reference" "R6"
-			(at 69.85 81.2799 0)
+			(at 69.85 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,8 +4064,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
-			(at 69.85 83.8199 0)
+		(property "Value" "75k"
+			(at 69.85 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,7 +4074,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 65.532 82.55 90)
+			(at 65.532 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4044,7 +4083,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 82.55 0)
+			(at 67.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,7 +4092,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 82.55 0)
+			(at 67.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4117,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 90.17 109.22 180)
+		(at 90.17 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4087,7 +4126,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddefa0cb-ee40-4164-959a-225ab6798355")
 		(property "Reference" "#PWR3"
-			(at 90.17 105.41 0)
+			(at 90.17 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4135,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 90.17 114.3 0)
+			(at 90.17 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 109.22 0)
+			(at 90.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 109.22 0)
+			(at 90.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4161,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 90.17 109.22 0)
+			(at 90.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4183,7 @@
 	)
 	(symbol
 		(lib_id "Marcus-PCB-Library:TC33X-trimmer")
-		(at 67.31 97.79 0)
+		(at 67.31 123.19 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4153,7 +4192,7 @@
 		(dnp no)
 		(uuid "e8b7c464-2859-4167-8a76-4bfafcb52434")
 		(property "Reference" "VR2"
-			(at 64.77 104.14 0)
+			(at 64.77 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4201,7 @@
 			)
 		)
 		(property "Value" "50k"
-			(at 64.77 101.6 0)
+			(at 64.77 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4210,7 @@
 			)
 		)
 		(property "Footprint" "Marcus-PCB-Library:TC33X2104E"
-			(at 76.2 -4.75 0)
+			(at 76.2 20.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +4220,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
-			(at 76.2 -104.75 0)
+			(at 76.2 -79.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +4230,7 @@
 			)
 		)
 		(property "Description" "Trimmer Resistors - SMD 3MM 25% 0.1WATT OPEN FRM"
-			(at 71.12 106.045 0)
+			(at 71.12 131.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,7 +4239,7 @@
 			)
 		)
 		(property "Height" "1.5"
-			(at 76.2 -304.75 0)
+			(at 76.2 -279.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +4249,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-TC33X-2-104E"
-			(at 76.2 -404.75 0)
+			(at 76.2 -379.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +4259,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/TC33X-2-104E?qs=2hAPiALdQ0llyX8B3WfcDg%3D%3D"
-			(at 76.2 -504.75 0)
+			(at 76.2 -479.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,7 +4269,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 76.2 -604.75 0)
+			(at 76.2 -579.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4240,7 +4279,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TC33X-2-104E"
-			(at 76.2 -704.75 0)
+			(at 76.2 -679.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4308,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 67.31 52.07 0)
+		(at 67.31 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4278,7 +4317,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecc1d94c-bc09-4c05-a738-ec94e8c0dc52")
 		(property "Reference" "#PWR011"
-			(at 67.31 55.88 0)
+			(at 67.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +4326,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 67.31 46.99 0)
+			(at 67.31 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,7 +4334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 52.07 0)
+			(at 67.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 52.07 0)
+			(at 67.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4352,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 67.31 52.07 0)
+			(at 67.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +4374,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 219.71 83.82 180)
+		(at 172.72 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4344,7 +4383,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecd43575-c32e-41b7-96b9-5dd605820d32")
 		(property "Reference" "#PWR04"
-			(at 219.71 80.01 0)
+			(at 172.72 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +4392,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 219.71 88.9 0)
+			(at 172.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +4400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 83.82 0)
+			(at 172.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +4409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 83.82 0)
+			(at 172.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +4418,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 219.71 83.82 0)
+			(at 172.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,7 +4440,7 @@
 	)
 	(symbol
 		(lib_id "Marcus-PCB-Library:AO3415")
-		(at 147.32 48.26 270)
+		(at 147.32 73.66 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4411,7 +4450,7 @@
 		(fields_autoplaced yes)
 		(uuid "fae95db6-d065-4601-9841-f214b5cf043c")
 		(property "Reference" "Q2"
-			(at 147.3351 36.83 90)
+			(at 147.3351 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,7 +4458,7 @@
 			)
 		)
 		(property "Value" "AO3415"
-			(at 147.3351 39.37 90)
+			(at 147.3351 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +4466,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 48.59 36.83 0)
+			(at 48.59 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,7 +4476,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3415.pdf"
-			(at -51.41 36.83 0)
+			(at -51.41 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,7 +4486,7 @@
 			)
 		)
 		(property "Description" "-20V Vds, -4A Id, P-Channel MOSFET, SOT-23, 41mΩ"
-			(at 160.655 47.625 0)
+			(at 160.655 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +4495,7 @@
 			)
 		)
 		(property "Height" "1.25"
-			(at -251.41 36.83 0)
+			(at -251.41 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +4505,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at -351.41 36.83 0)
+			(at -351.41 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4476,7 +4515,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at -451.41 36.83 0)
+			(at -451.41 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4486,7 +4525,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at -551.41 36.83 0)
+			(at -551.41 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4496,7 +4535,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AO3415"
-			(at -651.41 36.83 0)
+			(at -651.41 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
