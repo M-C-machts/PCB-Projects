@@ -312,4 +312,239 @@ P 5 0 1 6 -100 -200 300 -200 300 -1000 -100 -1000 -100 -200 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model BD49E41G-MTR
+#/12901766/1707050/2.50/5/2/Integrated Circuit
+DEF BD49E41G-MTR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "BD49E41G-MTR" 1050 200 50 H V L CNN
+F2 "SOT95P280X125-5N" 1050 100 50 H I L CNN
+F3 "https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd48xxg-m-e.pdf" 1050 0 50 H I L CNN
+F4 "Standard CMOS Voltage Detector IC, SSOP-5" 1050 -100 50 H I L CNN "Description"
+F5 "1.25" 1050 -200 50 H I L CNN "Height"
+F6 "755-BD49E41G-MTR" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BD49E41G-MTR?qs=WHeKGGBt0W%2FOTVqbrpCyUw%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ROHM Semiconductor" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BD49E41G-MTR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VOUT 1 0 0 200 R 50 50 0 0 P
+X VDD 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X N.C._1 4 1200 0 200 L 50 50 0 0 P
+X N.C._2 5 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SL-104-G-10
+#/2805786/1707050/2.50/4/3/Connector
+DEF SL-104-G-10 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SL-104-G-10" 650 200 50 H V L CNN
+F2 "HDRV4W76P0X254_1X4_1016X254X254P" 650 100 50 H I L CNN
+F3 "http://suddendocs.samtec.com/prints/sx-1xx-xx-xx-x-x-mkt.pdf" 650 0 50 H I L CNN
+F4 "SAMTEC - SL-104-G-10 - Board-To-Board Connector, Vertical, 2.54 mm, 4 Contacts, Receptacle, SL Series, Through Hole" 650 -100 50 H I L CNN "Description"
+F5 "2.54" 650 -200 50 H I L CNN "Height"
+F6 "200-SL104G10" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Samtec/SL-104-G-10?qs=rU5fayqh%252BE1R7wRR%2Fo7NwQ%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "SAMTEC" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SL-104-G-10" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 69190-404HLF
+#/18775893/1707050/2.50/4/2/Connector
+DEF 69190-404HLF J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "69190-404HLF" 650 200 50 H V L CNN
+F2 "HDRV4W67P0X254_1X4_1016X241X858P" 650 100 50 H I L CNN
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf" 650 0 50 H I L CNN
+F4 "Board to Board connector, Unshrouded vertical header, Through Hole, Single Row, 04  Positions, 2.54 mm (0.100in) Pitch." 650 -100 50 H I L CNN "Description"
+F5 "8.58" 650 -200 50 H I L CNN "Height"
+F6 "" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Amphenol Communications Solutions" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "69190-404HLF" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 22-28-4027
+#/710054/1707050/2.50/2/3/Connector
+DEF 22-28-4027 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "22-28-4027" 650 200 50 H V L CNN
+F2 "HDRV2W66P0X254_1X2_508X249X1067P" 650 100 50 H I L CNN
+F3 "https://rs.componentsearchengine.com/Datasheets/1/22-28-4027.pdf" 650 0 50 H I L CNN
+F4 "Headers & Wire Housings VERT B/A HDR 2P" 650 -100 50 H I L CNN "Description"
+F5 "10.67" 650 -200 50 H I L CNN "Height"
+F6 "538-22-28-4027" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/22-28-4027?qs=MuwpYaHj750%2FJoCgIA915Q%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "22-28-4027" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 5-146282-1
+#/877579/1707050/2.50/1/2/Connector
+DEF 5-146282-1 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "5-146282-1" 650 200 50 H V L CNN
+F2 "HDRV1W66P0X254_1X1_213X234X821P" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1307819_SECTION_5&DocType=Catalog%20Section&DocLang=English&PartCntxt=5-146282-1&DocFormat=pdf" 650 0 50 H I L CNN
+F4 "Body Features: Primary Product Color Black | Configuration Features: Number of Rows 1 | Number of Positions 1 | PCB Mount Orientation Vertical | Connector Contact Load Condition Fully Loaded | Board-to-Board Configuration Parallel | Contact Features: Contact Current Rating (Max) 3 AMP | Contact Underplating Material Nickel | Contact Mating Area Plating Material Tin | Contact Type Pin | Contact Base Material Copper Alloy | Contact Shape & Form Square | PCB Contact Termination Area Plating Material Thickness " 650 -100 50 H I L CNN "Description"
+F5 "8.21" 650 -200 50 H I L CNN "Height"
+F6 "571-5-146282-1" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5-146282-1?qs=ZbH6Gqd5jt0l86ju0GHwcA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "5-146282-1" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -100 200 -100 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 5-146284-2
+#/860632/1707050/2.50/2/4/Connector
+DEF 5-146284-2 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "5-146284-2" 650 200 50 H V L CNN
+F2 "HDRV2W96P0X254_1X2_467X234X821P" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/5-146284-2.pdf" 650 0 50 H I L CNN
+F4 "Headers & Wire Housings HDR 2 POS 2.54mm THRU-HOLE" 650 -100 50 H I L CNN "Description"
+F5 "8.21" 650 -200 50 H I L CNN "Height"
+F6 "571-5-146284-2" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5-146284-2?qs=26tC0AmtfJgTF4M3cEQgiA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "5-146284-2" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 5-146285-3
+#/636209/1707050/2.50/3/2/Connector
+DEF 5-146285-3 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "5-146285-3" 650 200 50 H V L CNN
+F2 "HDRV3W67P0X254_1X3_721X234X834P" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/5-146285-3.pdf" 650 0 50 H I L CNN
+F4 "Body Features: Primary Product Color Black | Configuration Features: PCB Mount Orientation Vertical | Number of Positions 3 | Connector Contact Load Condition Fully Loaded | Number of Rows 1 | Board-to-Board Configuration Parallel | Contact Features: PCB Contact Termination Area Plating Material Finish Matte | Contact Underplating Material Nickel | Contact Mating Area Plating Material Thickness 30 MICIN | PCB Contact Termination Area Plating Material Tin | PCB Contact Termination Area Plating Material Thick" 650 -100 50 H I L CNN "Description"
+F5 "8.34" 650 -200 50 H I L CNN "Height"
+F6 "571-5-146285-3" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5-146285-3?qs=xdH7H965B%252Bpbn3vRN6iSOw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "5-146285-3" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 5-146285-4
+#/1054913/1707050/2.50/4/2/Connector
+DEF 5-146285-4 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "5-146285-4" 650 200 50 H V L CNN
+F2 "HDRV4W67P0X254_1X4_975X234X821P" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=146285&DocType=Customer+Drawing&DocLang=English" 650 0 50 H I L CNN
+F4 "Body Features: Primary Product Color Black | Configuration Features: PCB Mount Orientation Vertical | Number of Positions 4 | Connector Contact Load Condition Fully Loaded | Board-to-Board Configuration Parallel | Number of Rows 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Shape & Form Square | Contact Current Rating (Max) 3 AMP | Mating Square Post Dimension .025 INCH | Contact Underplating Material Nickel | PCB Contact Termination Area Plating Material Thickness 100 " 650 -100 50 H I L CNN "Description"
+F5 "8.21" 650 -200 50 H I L CNN "Height"
+F6 "571-5-146285-4" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5-146285-4?qs=hegm%2Fm%252B%2Fz5k4K5mqG%252BTS9g%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "5-146285-4" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 5-146283-6
+#/7767385/1707050/2.50/6/2/Connector
+DEF 5-146283-6 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "5-146283-6" 650 200 50 H V L CNN
+F2 "HDRV6W67P0X254_1X6_1524X234X821P" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/5-146283-6.pdf" 650 0 50 H I L CNN
+F4 "Body Features: Primary Product Color Black | Configuration Features: Number of Rows 1 | Connector Contact Load Condition Fully Loaded | Number of Positions 6 | Board-to-Board Configuration Parallel | PCB Mount Orientation Vertical | Contact Features: Contact Shape & Form Square | Contact Mating Area Plating Material Thickness 5 MICIN | Contact Underplating Material Nickel | PCB Contact Termination Area Plating Material Finish Matte | PCB Contact Termination Area Plating Material Thickness 100  200 MICIN " 650 -100 50 H I L CNN "Description"
+F5 "8.21" 650 -200 50 H I L CNN "Height"
+F6 "571-5-146283-6" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=571-5-146283-6" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "5-146283-6" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 5-146285-5
+#/1494793/1707050/2.50/5/2/Connector
+DEF 5-146285-5 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "5-146285-5" 650 200 50 H V L CNN
+F2 "51462855" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/5-146285-5.pdf" 650 0 50 H I L CNN
+F4 "Body Features: Primary Product Color Black | Configuration Features: Number of Positions 5 | PCB Mount Orientation Vertical | Board-to-Board Configuration Parallel | Connector Contact Load Condition Fully Loaded | Number of Rows 1 | Contact Features: Contact Underplating Material Nickel | Contact Mating Area Plating Material Thickness 30 MICIN | Contact Shape & Form Square | PCB Contact Termination Area Plating Material Thickness 100  200 MICIN | PCB Contact Termination Area Plating Material Tin | Mating" 650 -100 50 H I L CNN "Description"
+F5 "8.21" 650 -200 50 H I L CNN "Height"
+F6 "571-5-146285-5" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=571-5-146285-5" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "5-146285-5" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 575-4
+#/843961/1707050/2.50/1/3/Test Point
+DEF 575-4 TP 0 30 Y Y 1 F N
+F0 "TP" 650 300 50 H V L CNN
+F1 "575-4" 650 200 50 H V L CNN
+F2 "5754" 650 100 50 H I L CNN
+F3 "https://www.keyelco.com/product.cfm/product_id/2379" 650 0 50 H I L CNN
+F4 "Test Plugs & Test Jacks NON-INSUL JACK .218\" BRASS NICKEL PLTD" 650 -100 50 H I L CNN "Description"
+F5 "2.49" 650 -200 50 H I L CNN "Height"
+F6 "534-575-4" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/575-4?qs=w4ABFRoM%2FL8pPaUzIDyX8Q%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Keystone Electronics" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "575-4" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -100 200 -100 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library

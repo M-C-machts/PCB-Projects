@@ -66,4 +66,70 @@ K
 F https://www.bourns.com/docs/Product-Datasheets/TC33.pdf
 $ENDCMP
 #
+$CMP BD49E41G-MTR
+D Standard CMOS Voltage Detector IC, SSOP-5
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd48xxg-m-e.pdf
+$ENDCMP
+#
+$CMP SL-104-G-10
+D SAMTEC - SL-104-G-10 - Board-To-Board Connector, Vertical, 2.54 mm, 4 Contacts, Receptacle, SL Series, Through Hole
+K
+F http://suddendocs.samtec.com/prints/sx-1xx-xx-xx-x-x-mkt.pdf
+$ENDCMP
+#
+$CMP 69190-404HLF
+D Board to Board connector, Unshrouded vertical header, Through Hole, Single Row, 04  Positions, 2.54 mm (0.100in) Pitch.
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf
+$ENDCMP
+#
+$CMP 22-28-4027
+D Headers & Wire Housings VERT B/A HDR 2P
+K
+F https://rs.componentsearchengine.com/Datasheets/1/22-28-4027.pdf
+$ENDCMP
+#
+$CMP 5-146282-1
+D Body Features: Primary Product Color Black | Configuration Features: Number of Rows 1 | Number of Positions 1 | PCB Mount Orientation Vertical | Connector Contact Load Condition Fully Loaded | Board-to-Board Configuration Parallel | Contact Features: Contact Current Rating (Max) 3 AMP | Contact Underplating Material Nickel | Contact Mating Area Plating Material Tin | Contact Type Pin | Contact Base Material Copper Alloy | Contact Shape & Form Square | PCB Contact Termination Area Plating Material Thickness 
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1307819_SECTION_5&DocType=Catalog%20Section&DocLang=English&PartCntxt=5-146282-1&DocFormat=pdf
+$ENDCMP
+#
+$CMP 5-146284-2
+D Headers & Wire Housings HDR 2 POS 2.54mm THRU-HOLE
+K
+F https://componentsearchengine.com/Datasheets/1/5-146284-2.pdf
+$ENDCMP
+#
+$CMP 5-146285-3
+D Body Features: Primary Product Color Black | Configuration Features: PCB Mount Orientation Vertical | Number of Positions 3 | Connector Contact Load Condition Fully Loaded | Number of Rows 1 | Board-to-Board Configuration Parallel | Contact Features: PCB Contact Termination Area Plating Material Finish Matte | Contact Underplating Material Nickel | Contact Mating Area Plating Material Thickness 30 MICIN | PCB Contact Termination Area Plating Material Tin | PCB Contact Termination Area Plating Material Thick
+K
+F https://componentsearchengine.com/Datasheets/2/5-146285-3.pdf
+$ENDCMP
+#
+$CMP 5-146285-4
+D Body Features: Primary Product Color Black | Configuration Features: PCB Mount Orientation Vertical | Number of Positions 4 | Connector Contact Load Condition Fully Loaded | Board-to-Board Configuration Parallel | Number of Rows 1 | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Shape & Form Square | Contact Current Rating (Max) 3 AMP | Mating Square Post Dimension .025 INCH | Contact Underplating Material Nickel | PCB Contact Termination Area Plating Material Thickness 100 
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=146285&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+$CMP 5-146283-6
+D Body Features: Primary Product Color Black | Configuration Features: Number of Rows 1 | Connector Contact Load Condition Fully Loaded | Number of Positions 6 | Board-to-Board Configuration Parallel | PCB Mount Orientation Vertical | Contact Features: Contact Shape & Form Square | Contact Mating Area Plating Material Thickness 5 MICIN | Contact Underplating Material Nickel | PCB Contact Termination Area Plating Material Finish Matte | PCB Contact Termination Area Plating Material Thickness 100  200 MICIN 
+K
+F https://componentsearchengine.com/Datasheets/1/5-146283-6.pdf
+$ENDCMP
+#
+$CMP 5-146285-5
+D Body Features: Primary Product Color Black | Configuration Features: Number of Positions 5 | PCB Mount Orientation Vertical | Board-to-Board Configuration Parallel | Connector Contact Load Condition Fully Loaded | Number of Rows 1 | Contact Features: Contact Underplating Material Nickel | Contact Mating Area Plating Material Thickness 30 MICIN | Contact Shape & Form Square | PCB Contact Termination Area Plating Material Thickness 100  200 MICIN | PCB Contact Termination Area Plating Material Tin | Mating
+K
+F https://componentsearchengine.com/Datasheets/1/5-146285-5.pdf
+$ENDCMP
+#
+$CMP 575-4
+D Test Plugs & Test Jacks NON-INSUL JACK .218" BRASS NICKEL PLTD
+K
+F https://www.keyelco.com/product.cfm/product_id/2379
+$ENDCMP
+#
 #End Doc Library
