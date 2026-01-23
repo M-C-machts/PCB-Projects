@@ -1,0 +1,225 @@
+(footprint "Conn_Terminal-Block_1x2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "282837-2-2")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 2.24 0 0)
+		(layer "F.SilkS")
+		(uuid "11883574-58f4-4968-992e-42bb2a5980a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Conn_Terminal-Block_1x2"
+		(at 2.24 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "482b1814-994a-4b76-9e16-9ea59e4fa528")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84268d3d-e7cd-4a40-b95f-d0b4da11c2c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ea695e9-afcd-43a6-bcb4-bcb74bc80483")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 -4.1)
+		(end 7.62 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff92e7da-2b35-4630-a3af-79155e67eb9f")
+	)
+	(fp_line
+		(start -2.54 4.1)
+		(end -2.54 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3abf1dae-9dc6-4d31-80e0-710ab7308f67")
+	)
+	(fp_line
+		(start 7.62 -4.1)
+		(end 7.62 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9eb9f9d8-0f18-4bd0-bafa-879ac94e8e87")
+	)
+	(fp_line
+		(start 7.62 4.1)
+		(end -2.54 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39d293f1-70ee-4f6a-a0ca-893db107ad44")
+	)
+	(fp_line
+		(start -2.65 -4.2)
+		(end 7.75 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d15a4e09-772d-4c3c-80f3-111ebebfd3b3")
+	)
+	(fp_line
+		(start -2.65 4.25)
+		(end -2.65 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a30524fa-3a46-4190-81c3-552bf786a263")
+	)
+	(fp_line
+		(start 7.75 -4.2)
+		(end 7.75 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b04a410-7f0e-430a-957c-46964770b8b8")
+	)
+	(fp_line
+		(start 7.75 4.25)
+		(end -2.65 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "acc7e734-ac53-48b3-ac8c-08a72a537ff0")
+	)
+	(fp_line
+		(start -2.54 -4.1)
+		(end -2.54 4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5f8fce0-5328-4b46-8755-bd0aee3d85b0")
+	)
+	(fp_line
+		(start -2.54 -4.1)
+		(end 7.62 -4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e22a6766-8d1a-4ed9-87ce-d2e137af6a61")
+	)
+	(fp_line
+		(start -2.54 4.1)
+		(end -2.54 -4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dcfa6ff2-16dc-42a6-b587-3eec71a00ecd")
+	)
+	(fp_line
+		(start 7.62 -4.1)
+		(end 7.62 4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3a5b522-0f19-4e62-bf18-1f40bdd40e86")
+	)
+	(fp_line
+		(start 7.62 4.1)
+		(end -2.54 4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2bb8d6d8-e8ca-4ba6-91ad-d9426b43ccfd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 6.3 0)
+		(layer "F.Fab")
+		(uuid "1ba55f5d-f690-4191-b9f4-b5e1d9591989")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef67c3fd-0ab5-4c8c-9e8c-be839dd0a2e1")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7868d6e1-3817-4056-9efb-c4e4bb1129f6")
+	)
+	(embedded_fonts no)
+	(model "C:\\PCB-Projects\\Marcus-PCB-Library\\SamacSys_Parts.3dshapes\\282837-2.stp"
+		(offset
+			(xyz 2.569999895 -0.009999999626 4.84000008)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
