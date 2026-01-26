@@ -1,0 +1,231 @@
+(footprint "TP5000-Charge-IC_smal-led"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -11 -8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b4f71b71-bcc3-4c39-abda-5e0ac8955421")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TP5000-Charge-IC_smal-led"
+		(at -11 -6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2e8c2b93-fce6-4baf-b3ec-d23691d82c5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e88f87c9-5a12-49cf-9e58-8c9cdfba8b6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "338380f6-fc0e-42f8-b5e7-d4f616ab0694")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -22 -15)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b1a58c75-24a6-43d7-8e1d-ef1f9744ac3d")
+	)
+	(fp_rect
+		(start -21.5 -10.5)
+		(end -4 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ffe4756d-3cab-4cc3-b69f-fd8a61c3fc81")
+	)
+	(fp_line
+		(start -22 -15)
+		(end -10 -15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5b94df5-7c8c-440e-b80d-89dba5c0b269")
+	)
+	(fp_line
+		(start -22 0)
+		(end -22 -15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "02c26897-fec9-472f-9843-4b9dfc24f2eb")
+	)
+	(fp_line
+		(start -10 -15)
+		(end -3 -15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ca69eab-3a03-44d9-9ff4-b1435ae5214e")
+	)
+	(fp_line
+		(start -3 -15)
+		(end 0 -15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "614860a2-698d-4a08-bda8-a3ea1f9dccc2")
+	)
+	(fp_line
+		(start 0 -15)
+		(end 0 -11.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "12be62d4-2ef0-47c6-a5c4-427e5268abd5")
+	)
+	(fp_line
+		(start 0 -11.5)
+		(end 1.5 -11.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "51664908-16df-4c4c-b59f-1f61ab18baa4")
+	)
+	(fp_line
+		(start 0 -2)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2f6badfe-866d-4647-aaf3-1bca66fd2cee")
+	)
+	(fp_line
+		(start 0 0)
+		(end -22 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d166e7e-3b48-49ad-8a53-3c1c0cd9350f")
+	)
+	(fp_line
+		(start 1.5 -11.5)
+		(end 1.5 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f20f6f7-ad94-4f64-b653-cf00c19572d2")
+	)
+	(fp_line
+		(start 1.5 -2)
+		(end 0 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e397c828-6249-444b-ae1a-473347020478")
+	)
+	(fp_rect
+		(start -21.5 -10.5)
+		(end -4 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "152c598c-b24b-4dd7-9d64-b2ffe9acc1f3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -11 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b41ed807-c29d-4a1a-b90f-d7c6beac8e5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.75 -10.5)
+		(size 4 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "97b17b9e-1c1c-418f-8cc8-899ded12d96f")
+	)
+	(pad "2" smd roundrect
+		(at -0.75 -8)
+		(size 4 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "c703eb10-c7c5-47ab-937b-290bd7517783")
+	)
+	(pad "3" smd roundrect
+		(at -0.75 -5.5)
+		(size 4 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "2bdbdb90-3762-4d9f-ac27-8229c12f028d")
+	)
+	(pad "4" smd roundrect
+		(at -0.75 -3)
+		(size 4 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "3ca612b9-43ba-4ee4-aa40-72cd2be307ab")
+	)
+	(embedded_fonts no)
+)
