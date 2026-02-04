@@ -590,4 +590,112 @@ P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model B2B-XH-2-TV4_LF__SN_
+#/19941698/1707050/2.50/2/3/Connector
+DEF B2B-XH-2-TV4_LF__SN_ J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "B2B-XH-2-TV4_LF__SN_" 650 200 50 H V L CNN
+F2 "B2BXH2TV4LFSN" 650 100 50 H I L CNN
+F3 "https://www.mouser.it/datasheet/2/564/JST_7_4_2024_exh-3479077.pdf" 650 0 50 H I L CNN
+F4 "Headers & Wire Housings XA HEADER ON RADIAL-TAPE (TOP TYPE)" 650 -100 50 H I L CNN "Description"
+F5 "7" 650 -200 50 H I L CNN "Height"
+F6 "306-B2BXH2TV4LFSN" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B2B-XH-2-TV4LFSN?qs=QpmGXVUTftF%2FGUlNCb6%252BgQ%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "JST (JAPAN SOLDERLESS TERMINALS)" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "B2B-XH-2-TV4(LF)(SN)" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B2B-XH-AM_LF__SN_
+#/554572/1707050/2.50/2/4/Connector
+DEF B2B-XH-AM_LF__SN_ J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "B2B-XH-AM_LF__SN_" 650 200 50 H V L CNN
+F2 "B2BXHAMLFSN" 650 100 50 H I L CNN
+F3 "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf" 650 0 50 H I L CNN
+F4 "CONN HEADER VERT 2POS 2.5MM" 650 -100 50 H I L CNN "Description"
+F5 "7" 650 -200 50 H I L CNN "Height"
+F6 "306-B2B-XH-AMLFSNP" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B2B-XH-AMLFSN?qs=cdbOS8ANM9BJgHgwB7WxQw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "JST (JAPAN SOLDERLESS TERMINALS)" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "B2B-XH-AM(LF)(SN)" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B3B-XH-A_LF__SN_
+#/2375237/1707050/2.50/3/4/Connector
+DEF B3B-XH-A_LF__SN_ J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "B3B-XH-A_LF__SN_" 650 200 50 H V L CNN
+F2 "B3BXHALFSN" 650 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/1812131720_JST-Sales-America-B3B-XH-A-LF-SN_C144394.pdf" 650 0 50 H I L CNN
+F4 "CONN HEADER VERT 3POS 2.5MM" 650 -100 50 H I L CNN "Description"
+F5 "7" 650 -200 50 H I L CNN "Height"
+F6 "306-B3BXHALFSNP" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B3B-XH-ALFSN?qs=cdbOS8ANM9BVkoboCCIEMQ%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "JST (JAPAN SOLDERLESS TERMINALS)" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "B3B-XH-A(LF)(SN)" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B4B-XH-A_LF__SN_
+#/2430811/1707050/2.50/4/4/Connector
+DEF B4B-XH-A_LF__SN_ J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "B4B-XH-A_LF__SN_" 650 200 50 H V L CNN
+F2 "B4BXHALFSN" 650 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/JST-Sales-America-B4B-XH-A-LF-SN_C144395.pdf" 650 0 50 H I L CNN
+F4 "CONN HEADER VERT 4POS 2.5MM" 650 -100 50 H I L CNN "Description"
+F5 "7" 650 -200 50 H I L CNN "Height"
+F6 "306-B4BXHALFSN" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B4B-XH-ALFSN?qs=cdbOS8ANM9CfC08d%252BywhFw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "JST (JAPAN SOLDERLESS TERMINALS)" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "B4B-XH-A(LF)(SN)" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SS34B-HF
+#/13234928/1707050/2.50/2/3/Schottky Diode
+DEF SS34B-HF D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "SS34B-HF" 500 250 50 H V L CNN
+F2 "DIOM5336X320N" 500 150 50 H I L CNN
+F3 "https://www.mouser.jp/datasheet/2/80/SP-JB017_SS34B-HF_Thru._SS320B-HF_RevB-1847021.pdf" 500 50 50 H I L CNN
+F4 "Schottky Diodes & Rectifiers DIODE SCHOTTKY 3A 40V SMB" 500 -50 50 H I L CNN "Description"
+F5 "3.2" 500 -150 50 H I L CNN "Height"
+F6 "750-SS34B-HF" 500 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS34B-HF?qs=vmHwEFxEFR9G1M%252BcUPG%2FxQ%3D%3D" 500 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "Comchip Technology" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "SS34B-HF" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+ENDDRAW
+ENDDEF
+#
 #End Library

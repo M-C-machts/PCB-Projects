@@ -1,4 +1,4 @@
-(footprint "Mechc.-solder-pad-large"
+(footprint "Conn_Mechc.-solder-pad-large_1x1"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -11,13 +11,13 @@
 		(uuid "0486dc4e-e81f-4372-bdef-267e7d3c140a")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left)
 		)
 	)
-	(property "Value" "Mechc.-solder-pad-large"
+	(property "Value" "Conn_Mechc.-solder-pad-large_1x1"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -134,8 +134,21 @@
 		(layer "F.Fab")
 		(uuid "55b702e5-52cb-4fbd-8c85-fc19b62b7678")
 	)
+	(fp_text user "${LABEL}"
+		(at -0.85 3.15 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "94206ea1-d8b0-4129-b67d-f517ebad3b64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
-		(at -0.75 2.25 0)
+		(at 2.9 0.25 0)
 		(layer "F.Fab")
 		(uuid "e2271186-ae53-4405-b91c-d84ba96b5970")
 		(effects

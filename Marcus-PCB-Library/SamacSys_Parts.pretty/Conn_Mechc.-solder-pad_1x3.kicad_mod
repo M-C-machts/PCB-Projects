@@ -1,4 +1,4 @@
-(footprint "Mechc.-solder-pad_1x2"
+(footprint "Conn_Mechc.-solder-pad_1x3"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -11,13 +11,13 @@
 		(uuid "0486dc4e-e81f-4372-bdef-267e7d3c140a")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left)
 		)
 	)
-	(property "Value" "Mechc.-solder-pad_1x2"
+	(property "Value" "Conn_Mechc.-solder-pad_1x3"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -65,7 +65,7 @@
 		(uuid "db7837f0-5f9a-4078-b030-1254f5f56137")
 	)
 	(fp_line
-		(start -1.6 3.7)
+		(start -1.600083 6.3)
 		(end -1.6075 -0.43)
 		(stroke
 			(width 0.05)
@@ -76,7 +76,7 @@
 	)
 	(fp_line
 		(start 1.6 -0.4)
-		(end 1.6 3.7)
+		(end 1.6 6.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -85,8 +85,8 @@
 		(uuid "bacb2339-e423-41ee-bfa0-d68262208ddd")
 	)
 	(fp_line
-		(start 1.6 3.7)
-		(end -1.6 3.7)
+		(start 1.6 6.3)
+		(end -1.6 6.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -105,7 +105,7 @@
 		(uuid "30517041-dc54-4fd7-b304-ce76deb03ef6")
 	)
 	(fp_line
-		(start -1.6 3.7)
+		(start -1.6 6.3)
 		(end -1.6 -0.4)
 		(stroke
 			(width 0.1)
@@ -116,7 +116,7 @@
 	)
 	(fp_line
 		(start 1.6 -0.4)
-		(end 1.6 3.7)
+		(end 1.6 6.3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -125,8 +125,8 @@
 		(uuid "d0c8690d-3a88-4bab-ba43-e6b830d55a6b")
 	)
 	(fp_line
-		(start 1.6 3.7)
-		(end -1.6 3.7)
+		(start 1.6 6.3)
+		(end -1.6 6.3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -134,8 +134,21 @@
 		(layer "F.Fab")
 		(uuid "55b702e5-52cb-4fbd-8c85-fc19b62b7678")
 	)
+	(fp_text user "${LABEL}"
+		(at -1.45 7.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c46c8291-16e9-4fe9-81d1-23f816f5ea1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
-		(at -1.9 5.3 0)
+		(at -1.7 10.5 0)
 		(layer "F.Fab")
 		(uuid "e2271186-ae53-4405-b91c-d84ba96b5970")
 		(effects
@@ -206,7 +219,7 @@
 		(uuid "8feeab83-95d7-4cf1-8ac2-412e7b037659")
 	)
 	(pad "2" thru_hole circle
-		(at -1.2 3.3)
+		(at -1.2 3.4)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu" "F.Mask" "F.Paste")
@@ -214,10 +227,10 @@
 		(uuid "8065e751-b2f2-44dc-b876-9b1bf81c2412")
 	)
 	(pad "2" thru_hole roundrect
-		(at 0 2.54)
+		(at 0 2.5)
 		(size 3 1.5)
 		(drill 0.3
-			(offset 0 0.4)
+			(offset 0 0.45)
 		)
 		(layers "*.Cu" "F.Mask" "F.Paste")
 		(remove_unused_layers no)
@@ -225,7 +238,7 @@
 		(uuid "a928a942-b3a6-4aa8-8de2-8ecacd89f344")
 	)
 	(pad "2" thru_hole circle
-		(at 0 3.3)
+		(at 0 3.4)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu" "F.Mask" "F.Paste")
@@ -241,12 +254,63 @@
 		(uuid "03fd7c2e-ba1e-45fd-8874-c300f1c437da")
 	)
 	(pad "2" thru_hole circle
-		(at 1.2 3.3)
+		(at 1.2 3.4)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu" "F.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(uuid "02f01787-a7a2-4a27-a32a-ce26b9799c36")
+	)
+	(pad "3" thru_hole circle
+		(at -1.2 5)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "bba027b0-29d2-49c7-8dcf-8def6a4ac404")
+	)
+	(pad "3" thru_hole circle
+		(at -1.2 5.9)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "4282a27f-a641-4a4d-b8f4-c4283b225583")
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 5)
+		(size 3 1.5)
+		(drill 0.3
+			(offset 0 0.45)
+		)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "cb75f6a5-ee34-43f3-9386-033ea22f61d7")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.9)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "06425222-6f76-49c8-a176-f165551aa956")
+	)
+	(pad "3" thru_hole circle
+		(at 1.2 5)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "09151fd6-01ff-4f83-800a-7ce64545d4e7")
+	)
+	(pad "3" thru_hole circle
+		(at 1.2 5.9)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "1507d339-c20a-4971-af0a-d67a628807d6")
 	)
 	(embedded_fonts no)
 )
