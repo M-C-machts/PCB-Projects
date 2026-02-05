@@ -43,3 +43,9 @@ fp-info-cache
 
 *\gerbers
 *\gerber
+
+
+*.vscode
+*/software/.gitignore
+*/software/lib
+*/software/test
