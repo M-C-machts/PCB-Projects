@@ -174,4 +174,10 @@ K
 F https://www.mouser.jp/datasheet/2/80/SP-JB017_SS34B-HF_Thru._SS320B-HF_RevB-1847021.pdf
 $ENDCMP
 #
+$CMP RT6150B-33GQW
+D IC REG BCK BST 3.3V 800MA 10WDFN
+K
+F https://datasheet.octopart.com/RT6150B-33GQW-Richtek-datasheet-82510503.pdf
+$ENDCMP
+#
 #End Doc Library
