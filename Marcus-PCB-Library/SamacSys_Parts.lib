@@ -727,4 +727,116 @@ P 5 0 1 6 200 100 1000 100 1000 -900 200 -900 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model CL10B105KA8NNNC
+#/490536/1707050/2.50/2/3/Capacitor
+DEF CL10B105KA8NNNC C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "CL10B105KA8NNNC" 350 150 50 H V L CNN
+F2 "CAPC1608X90N" 350 50 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2410489.pdf" 350 -50 50 H I L CNN
+F4 "Samsung Electro-Mechanics 0603 CL 1uF Ceramic Multilayer Capacitor, 25 V, +125C, X7R Dielectric, +/-10% SMD" 350 -150 50 H I L CNN "Description"
+F5 "0.9" 350 -250 50 H I L CNN "Height"
+F6 "187-CL10B105KA8NNNC" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10B105KA8NNNC?qs=349EhDEZ59qp%252BMgnTol5Nw%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "SAMSUNG" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CL10B105KA8NNNC" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model HPAL1V0630-4R7-R
+#/21498654/1707050/2.50/2/3/Inductor
+DEF HPAL1V0630-4R7-R L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "HPAL1V0630-4R7-R" 650 150 50 H V L CNN
+F2 "INDPM7066X300N" 650 50 50 H I L CNN
+F3 "" 650 -50 50 H I L CNN
+F4 "Power Inductors - 4.7 H Shielded Molded Inductor 6 A 33mOhm Max Nonstandard" 650 -150 50 H I L CNN "Description"
+F5 "3" 650 -250 50 H I L CNN "Height"
+F6 "" 650 -350 50 H I L CNN "Mouser Part Number"
+F7 "" 650 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Eaton" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "HPAL1V0630-4R7-R" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SRP3212A-4R7M
+#/16197685/1707050/2.50/2/2/Inductor
+DEF SRP3212A-4R7M L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "SRP3212A-4R7M" 650 150 50 H V L CNN
+F2 "INDC3225X120N" 650 50 50 H I L CNN
+F3 "https://www.bourns.com/docs/product-datasheets/srp3212.pdf" 650 -50 50 H I L CNN
+F4 "Ind,3.2x2.5x1mm,4.7uH+/-20%,2.2A,shd" 650 -150 50 H I L CNN "Description"
+F5 "1.2" 650 -250 50 H I L CNN "Height"
+F6 "652-SRP3212A-4R7M" 650 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/SRP3212A-4R7M?qs=t7xnP681wgUDaQ9KSPrZtA%3D%3D" 650 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "SRP3212A-4R7M" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SRP3212A-2R2M
+#/16197683/1707050/2.50/2/2/Inductor
+DEF SRP3212A-2R2M L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "SRP3212A-2R2M" 650 150 50 H V L CNN
+F2 "INDC3225X120N" 650 50 50 H I L CNN
+F3 "https://www.bourns.com/docs/product-datasheets/srp3212.pdf" 650 -50 50 H I L CNN
+F4 "Ind,3.2x2.5x1mm,2.2uH+/-20%,4A,shd" 650 -150 50 H I L CNN "Description"
+F5 "1.2" 650 -250 50 H I L CNN "Height"
+F6 "652-SRP3212A-2R2M" 650 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/SRP3212A-2R2M?qs=t7xnP681wgXn6xyeAWQUgg%3D%3D" 650 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "SRP3212A-2R2M" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B2B-XH-A-GU
+#/554574/1707050/2.50/2/3/Connector
+DEF B2B-XH-A-GU J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "B2B-XH-A-GU" 650 200 50 H V L CNN
+F2 "B2BXHAGU" 650 100 50 H I L CNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" 650 0 50 H I L CNN
+F4 "CONN HEADER VERT 2POS 2.5MM" 650 -100 50 H I L CNN "Description"
+F5 "7" 650 -200 50 H I L CNN "Height"
+F6 "N/A" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B2B-XH-A-GU?qs=IKkN%2F947nfBVsqimfO%252BieQ%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "JST (JAPAN SOLDERLESS TERMINALS)" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "B2B-XH-A-GU" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library

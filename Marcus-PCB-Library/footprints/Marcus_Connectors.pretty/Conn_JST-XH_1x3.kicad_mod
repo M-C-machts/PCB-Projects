@@ -193,7 +193,7 @@
 		(uuid "8a8d0a2b-9b6c-403b-830f-51e069ac973b")
 	)
 	(embedded_fonts no)
-	(model "C:\\PCB-Projects\\Marcus-PCB-Library\\SamacSys_Parts.3dshapes\\B3B-XH-A_LF__SN_.stp"
+	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/JST-XH-B3B.stp"
 		(offset
 			(xyz 5.669999991 -13.28999976 -5.269999902)
 		)

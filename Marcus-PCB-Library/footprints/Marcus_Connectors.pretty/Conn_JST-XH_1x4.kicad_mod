@@ -201,15 +201,15 @@
 		(uuid "9173709e-22b2-4761-b167-6de7a4dfc569")
 	)
 	(embedded_fonts no)
-	(model "C:\\PCB-Projects\\Marcus-PCB-Library\\SamacSys_Parts.3dshapes\\B4B-XH-A_LF__SN_.stp"
+	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/JST-XH-B4B.stp"
 		(offset
-			(xyz -43.4099992 -21.62999884 0)
+			(xyz -43.409999 -21.629999 -0.4)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 -180)
+			(xyz -90 -0 -180)
 		)
 	)
 )

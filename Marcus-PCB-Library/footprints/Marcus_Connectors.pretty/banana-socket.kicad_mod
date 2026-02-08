@@ -155,7 +155,7 @@
 		(uuid "f78dffcc-74a5-492b-90da-e73bc0fa088a")
 	)
 	(embedded_fonts no)
-	(model "C:\\PCB-Projects\\Marcus-PCB-Library\\SamacSys_Parts.3dshapes\\575-4.stp"
+	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/banana-socket.stp"
 		(offset
 			(xyz 0 0 0)
 		)

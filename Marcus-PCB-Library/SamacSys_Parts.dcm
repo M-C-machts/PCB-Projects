@@ -180,4 +180,34 @@ K
 F https://datasheet.octopart.com/RT6150B-33GQW-Richtek-datasheet-82510503.pdf
 $ENDCMP
 #
+$CMP CL10B105KA8NNNC
+D Samsung Electro-Mechanics 0603 CL 1uF Ceramic Multilayer Capacitor, 25 V, +125C, X7R Dielectric, +/-10% SMD
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2410489.pdf
+$ENDCMP
+#
+$CMP HPAL1V0630-4R7-R
+D Power Inductors - 4.7 H Shielded Molded Inductor 6 A 33mOhm Max Nonstandard
+K
+F 
+$ENDCMP
+#
+$CMP SRP3212A-4R7M
+D Ind,3.2x2.5x1mm,4.7uH+/-20%,2.2A,shd
+K
+F https://www.bourns.com/docs/product-datasheets/srp3212.pdf
+$ENDCMP
+#
+$CMP SRP3212A-2R2M
+D Ind,3.2x2.5x1mm,2.2uH+/-20%,4A,shd
+K
+F https://www.bourns.com/docs/product-datasheets/srp3212.pdf
+$ENDCMP
+#
+$CMP B2B-XH-A-GU
+D CONN HEADER VERT 2POS 2.5MM
+K
+F http://www.jst-mfg.com/product/pdf/eng/eXH.pdf
+$ENDCMP
+#
 #End Doc Library

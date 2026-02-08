@@ -219,7 +219,7 @@
 		(uuid "80a94f0b-8d2d-471a-979a-6ffd4573ce15")
 	)
 	(embedded_fonts no)
-	(model "C:\\PCB-Projects\\Marcus-PCB-Library\\SamacSys_Parts.3dshapes\\5-146285-4.stp"
+	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/Conn_1x4_PH.stp"
 		(offset
 			(xyz 3.809999886 0 2.289999927)
 		)
