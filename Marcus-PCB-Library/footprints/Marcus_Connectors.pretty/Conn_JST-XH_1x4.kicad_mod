@@ -201,7 +201,7 @@
 		(uuid "9173709e-22b2-4761-b167-6de7a4dfc569")
 	)
 	(embedded_fonts no)
-	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/JST-XH-B4B.stp"
+	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/Marcus_Connectors/JST-XH-B4B.stp"
 		(offset
 			(xyz -43.409999 -21.629999 -0.4)
 		)

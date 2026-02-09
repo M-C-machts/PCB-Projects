@@ -203,7 +203,7 @@
 		(uuid "3a3954be-e7ae-4f75-a4f6-cd222f579622")
 	)
 	(embedded_fonts no)
-	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/Conn_1x2_PH.stp"
+	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/Marcus_Connectors/Conn_1x2_PH.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -211,7 +211,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 90 -0)
 		)
 	)
 )

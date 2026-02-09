@@ -211,7 +211,7 @@
 		(uuid "32b9b19e-b107-4919-86e0-5fc79f265e4f")
 	)
 	(embedded_fonts no)
-	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/Conn_1x3_PH.stp"
+	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/Marcus_Connectors/Conn_1x3_PH.stp"
 		(offset
 			(xyz 2.539999924 0 2.289999927)
 		)

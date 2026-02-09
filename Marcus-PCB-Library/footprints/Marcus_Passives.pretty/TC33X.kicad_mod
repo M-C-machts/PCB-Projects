@@ -1,0 +1,259 @@
+(footprint "TC33X"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TC33X-2-104E-3")
+	(tags "Variable Resistor")
+	(property "Reference" "VR**"
+		(at 0 0.1 0)
+		(layer "F.SilkS")
+		(uuid "7f1746a6-ead4-4302-aa8b-a23fe189bcc0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TC33X"
+		(at 0 0.1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bb92b72b-1548-4687-b5eb-4123fff5e2e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b8f77e3-85b2-42c3-a170-5fbb271dd682")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aeb971d7-4c03-4a4c-a6cb-df025877cb00")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -1.75)
+		(end -1.5 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1a1eb54-1973-432a-826b-f8016181f390")
+	)
+	(fp_line
+		(start -1.2 -1.75)
+		(end -1.5 -1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80a1c778-4e46-48fd-b1a3-5c0638812782")
+	)
+	(fp_line
+		(start -1 2.9)
+		(end -1 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3732611c-3190-4b8e-9728-9996cbdd00d6")
+	)
+	(fp_line
+		(start -1 3)
+		(end -1 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28a43d5b-ce89-4102-964d-f8756a0e1f31")
+	)
+	(fp_line
+		(start 1.2 -1.75)
+		(end 1.5 -1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4430d839-1769-487e-b9db-c572e0015ff8")
+	)
+	(fp_line
+		(start 1.5 -1.75)
+		(end 1.5 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d5639f9-73d0-40c7-8ceb-1325204e8595")
+	)
+	(fp_arc
+		(start -1 2.9)
+		(mid -0.95 2.95)
+		(end -1 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d92e60dc-adb5-4134-b3fc-54f2ee5c4e17")
+	)
+	(fp_arc
+		(start -1 3)
+		(mid -1.05 2.95)
+		(end -1 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a30f85e-d860-4ad8-879a-2883a0d9ac03")
+	)
+	(fp_line
+		(start -2.6 -3.2)
+		(end 2.6 -3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "408e3f1f-419d-4dc8-b092-55ef25266b62")
+	)
+	(fp_line
+		(start -2.6 3.4)
+		(end -2.6 -3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "91a28f81-a1be-4ce3-88ee-4ff26aebaefc")
+	)
+	(fp_line
+		(start 2.6 -3.2)
+		(end 2.6 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0925f322-581a-45c5-8102-11784ad6dbd3")
+	)
+	(fp_line
+		(start 2.6 3.4)
+		(end -2.6 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cce8abb8-2c69-408d-a856-c7b0182ec262")
+	)
+	(fp_line
+		(start -1.5 -1.75)
+		(end 1.5 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "40da715a-08f9-4044-a7d4-67a0d207c237")
+	)
+	(fp_line
+		(start -1.5 2)
+		(end -1.5 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d604c6fb-c3a7-4f59-9571-6528167b2df8")
+	)
+	(fp_line
+		(start 1.5 -1.75)
+		(end 1.5 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c12e3655-07c3-4847-bc9e-d1f84409894f")
+	)
+	(fp_line
+		(start 1.5 2)
+		(end -1.5 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb3a0e51-2887-4237-91a0-d741acf11a53")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.1 0)
+		(layer "F.Fab")
+		(uuid "47c18855-5137-4a40-8b21-8fb0dc4c6a0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 1.8 90)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7879f8e5-588f-4d93-940b-757ef0e2cba1")
+	)
+	(pad "2" smd rect
+		(at 0 -1.45 90)
+		(size 1.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e36e51fe-119b-401f-ac4e-6effcec7283a")
+	)
+	(pad "3" smd rect
+		(at 1 1.8 90)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "876b4ab7-b952-41c3-85f6-6ca6325efcd5")
+	)
+	(embedded_fonts no)
+	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/Marcus_Passives/TC33X.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
