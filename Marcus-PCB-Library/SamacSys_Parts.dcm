@@ -210,4 +210,16 @@ K
 F http://www.jst-mfg.com/product/pdf/eng/eXH.pdf
 $ENDCMP
 #
+$CMP SDM1100LP-7
+D Schottky Rectifier Diode 100 V 1A Surface Mount U-DFN2020-2
+K
+F https://www.diodes.com//assets/Datasheets/SDM1100LP.pdf
+$ENDCMP
+#
+$CMP PMEG10020ELXEX
+D PMEG10020ELXE - 100 V, 2 A low leakage current Schottky barrier rectifier@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/PMEG4010EXE.pdf
+$ENDCMP
+#
 #End Doc Library

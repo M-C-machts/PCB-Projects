@@ -1,0 +1,108 @@
+(footprint "Conn_Castellated_1x1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "5-146284-2")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at -0.75 -2 0)
+		(layer "F.SilkS")
+		(uuid "75f151d3-035f-4c0a-bab3-4320299cf890")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Conn_1x2_PH"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5288b712-dcf1-4bfd-b79c-ffc10a599ada")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e474516b-0ebd-47ba-85b6-8a093477e96a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40760686-4e85-47c8-af85-5f04347850ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.1 -1.1)
+		(end 1.1 2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2514cf0f-5253-4591-bc71-f39352963a90")
+	)
+	(fp_rect
+		(start -1.02 -1)
+		(end 1 2.52)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f590c308-2463-41d6-b361-9b76c870d81f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2 4 0)
+		(layer "F.Fab")
+		(uuid "332cbc9e-0b5a-4140-bde7-6324a6ec84e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+			(justify left)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.725 1.725)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "438d0653-b932-4259-ac97-da507513ce69")
+	)
+	(pad "1" thru_hole rect
+		(at 0 1.5)
+		(size 1.725 1.725)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e698868-359c-45e9-818f-d03a58081847")
+	)
+	(embedded_fonts no)
+)

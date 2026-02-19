@@ -1,0 +1,218 @@
+(footprint "PMEG4010EXEX"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PMEG4010EXEX")
+	(tags "Schottky Diode")
+	(property "Reference" "D**"
+		(at 0.11 -1.97 0)
+		(layer "F.SilkS")
+		(uuid "3cac56b4-284c-45e1-b869-eeecd10c419b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PMEG4010EXEX"
+		(at 0.037 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bf0f9172-c60a-4bd7-8fad-40b0aeb3d660")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c380f886-d023-41cf-8510-dd15b6ccea21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d26ace5-6406-4ec1-854d-18599e5945b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.3 -1)
+		(end -2.3 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5ef50266-30ff-4d46-8291-8f3880c729bc")
+	)
+	(fp_line
+		(start -2.3 1)
+		(end 2.3 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "11d77889-bf96-49e0-97c3-8b40f7aa003c")
+	)
+	(fp_line
+		(start 0.4 -0.4)
+		(end 0.4 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "08368a87-cf2e-4ba3-8450-7d410d6dedbb")
+	)
+	(fp_line
+		(start 0.4 0)
+		(end 1 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9faa8d19-9dd0-43cd-8632-b5e735e0057f")
+	)
+	(fp_line
+		(start 1 -0.4)
+		(end 1 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7f38e584-80dc-4b95-b8d2-7afa01ebbf7f")
+	)
+	(fp_line
+		(start 1 0.4)
+		(end 0.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9dfcd290-3ab0-4faf-9085-f93d1f6c1862")
+	)
+	(fp_line
+		(start 2.3 -1)
+		(end -2.3 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a0fb4235-4548-45be-8f0c-64db3efbb323")
+	)
+	(fp_rect
+		(start -2.6 -1.3)
+		(end 2.7 1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "405dd735-1416-4430-8872-d8652e08a177")
+	)
+	(fp_line
+		(start -1.4 -0.9)
+		(end -1.4 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04b855cc-0a1c-4473-92d5-9253717beceb")
+	)
+	(fp_line
+		(start -1.4 0.9)
+		(end 1.4 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa0c11d7-4325-48f9-83f1-383e498afb82")
+	)
+	(fp_line
+		(start 1.4 -0.9)
+		(end -1.4 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "334511b9-90be-42b1-a567-2b58431ee16a")
+	)
+	(fp_line
+		(start 1.4 0.9)
+		(end 1.4 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97107d4d-9fb0-47e3-87b0-933b61a2b899")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.38 2.7 0)
+		(layer "F.Fab")
+		(uuid "a5b5d6df-26fe-40a9-823b-732b401f5217")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.6 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "42b72be2-dab2-4238-a788-1fc94bd19cc1")
+	)
+	(pad "1" smd rect
+		(at -0.44 0)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cfbcab22-2160-4922-9d2a-9f26c3f6deb7")
+	)
+	(pad "2" smd rect
+		(at 1.713 0)
+		(size 1.15 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a8c35f5c-9a9d-4c5e-9787-f5a968004382")
+	)
+	(embedded_fonts no)
+	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/Marcus_Discretes/PMEG10020ELXEX.stp"
+		(offset
+			(xyz 0.03999999851 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -535,6 +535,309 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Display-OLED-1.3-Module"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 5.08 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Display-OLED-1.3-Module"
+			(at 16.51 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Marcus_Modules:Display-OLED-1.3-Module"
+			(at 16.51 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.3 128X64 OLED Display Module I2C; Chip: SH1106"
+			(at 6.985 -14.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SchematicName" "Display_128x64"
+			(at 5.08 -10.16 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "Display-OLED-1.3-Module_1_1"
+			(rectangle
+				(start 5.08 1.27)
+				(end 7.62 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 0)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -7.62 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "LiFePO4-Xiao-Module"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 4.064 4.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LiFePO4-Xiao-Module"
+			(at 5.588 2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Marcus_Modules:LiFePO4-Xiao-Module"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LiFePO4-charge and discharge module for Seeed Xiao"
+			(at 5.842 -12.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LiFePO4-Xiao-Module_1_1"
+			(rectangle
+				(start 0 0)
+				(end 11.43 -9.525)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "Vin"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "Vout"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -2.54 180)
+				(length 2.54)
+				(name "Batt_mon"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -5.08 180)
+				(length 2.54)
+				(name "PS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "PICO"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1670,7 +1973,7 @@
 					(type background)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 -1.905 0)
 				(length 2.54)
 				(name "PA02_A0_D0"
@@ -1688,7 +1991,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 -4.445 0)
 				(length 2.54)
 				(name "PA4_A1_D1"
@@ -1706,7 +2009,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 -6.985 0)
 				(length 2.54)
 				(name "PA10_A2_D2"
@@ -1724,7 +2027,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 -9.525 0)
 				(length 2.54)
 				(name "PA11_A3_D3"
@@ -1742,7 +2045,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 -12.065 0)
 				(length 2.54)
 				(name "PA8_A4_D4_SDA"
@@ -1760,7 +2063,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 -14.605 0)
 				(length 2.54)
 				(name "PA9_A5_D5_SCL"
@@ -1778,7 +2081,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 -17.145 0)
 				(length 2.54)
 				(name "PB08_A6_D6_TX"
@@ -1796,7 +2099,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 33.02 -1.905 180)
 				(length 2.54)
 				(name "5V"
@@ -1814,7 +2117,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 33.02 -4.445 180)
 				(length 2.54)
 				(name "GND"
@@ -1832,7 +2135,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 33.02 -6.985 180)
 				(length 2.54)
 				(name "3V3"
@@ -1850,7 +2153,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 33.02 -9.525 180)
 				(length 2.54)
 				(name "PA6_A10_D10_MOSI"
@@ -1868,7 +2171,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 33.02 -12.065 180)
 				(length 2.54)
 				(name "PA5_A9_D9_MISO"
@@ -1886,7 +2189,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 33.02 -14.605 180)
 				(length 2.54)
 				(name "PA7_A8_D8_SCK"
@@ -1904,7 +2207,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 33.02 -17.145 180)
 				(length 2.54)
 				(name "PB09_A7_D7_RX"
@@ -1924,7 +2227,7 @@
 			)
 		)
 		(symbol "SEEEDUINO-XIAO-ESP32C3_1_1"
-			(pin input line
+			(pin passive line
 				(at 13.97 -27.305 90)
 				(length 2.54)
 				(name "BAT+"
@@ -1942,7 +2245,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 16.51 -27.305 90)
 				(length 2.54)
 				(name "BAT-"
