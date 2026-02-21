@@ -1,4 +1,4 @@
-(footprint "LiFePO4-Xiao-Module"
+(footprint "XIAO-LiFePO4-Power-Module"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "LiFePO4-Xiao-Module"
+	(property "Value" "XIAO-LiFePO4-Power-Module"
 		(at 8.5 -1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -223,7 +223,7 @@
 		(uuid "3e2e732f-a14a-484b-9819-ee3c246edcb6")
 	)
 	(embedded_fonts no)
-	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/Marcus_Modules/LiFePO4-charge-discharge-board.step"
+	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/Marcus_Modules/XIAO-LiFePO4-Power-Module.step"
 		(offset
 			(xyz -20 20 0)
 		)
