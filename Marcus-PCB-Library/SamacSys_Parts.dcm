@@ -222,4 +222,22 @@ K
 F https://assets.nexperia.com/documents/data-sheet/PMEG4010EXE.pdf
 $ENDCMP
 #
+$CMP ESP32-C3-MINI-1-H4X
+D Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.412GHz ~ 2.484GHz PCB Trace Surface Mount
+K
+F 
+$ENDCMP
+#
+$CMP VSMY2890RGX01
+D Infrared Emitters - High Power IR EMI H-PWR H-SPEED 890NM SMD
+K
+F https://www.vishay.com/docs/84970/vsmy2890x01.pdf
+$ENDCMP
+#
+$CMP VEMT2000X01
+D Phototransistor IR  NPN Transistor 860nm
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA21/96087.pdf
+$ENDCMP
+#
 #End Doc Library

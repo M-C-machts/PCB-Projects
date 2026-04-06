@@ -155,15 +155,15 @@
 		(uuid "f78dffcc-74a5-492b-90da-e73bc0fa088a")
 	)
 	(embedded_fonts no)
-	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/Marcus_Connectors/banana-socket.stp"
+	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/Marcus_Connectors/banana-bullet-connector-female.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 -10)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

@@ -1,0 +1,249 @@
+(footprint "VSMY2890RGX01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "VSMY2890RGX01-1")
+	(tags "Diode")
+	(property "Reference" "D**"
+		(at -0.15 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "791c8e3c-86f8-4099-b5f5-7ffc03e202d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "VSMY2890RGX01"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "39f72c74-1bd1-45d7-9cbe-74586cd27797")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32e933cb-937f-42df-81b1-bc98dbdf2adc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f36d491-a06e-4193-84e6-05bbecbeb831")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.15 -1.15)
+		(end -0.9 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "923db2c3-49e7-4101-8c66-3faeab24c75c")
+	)
+	(fp_line
+		(start -1.15 -0.9)
+		(end -1.15 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3874f884-c53a-4584-b22a-ac5e46f7a9cc")
+	)
+	(fp_line
+		(start -1.15 0.9)
+		(end -1.15 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c72aaaaa-85f7-47d5-b9f9-787da786ec5b")
+	)
+	(fp_line
+		(start -1.15 1.15)
+		(end -0.9 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1f7f677-43d0-4b19-8f5c-484e7929dc07")
+	)
+	(fp_line
+		(start 0.9 -1.15)
+		(end 1.15 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77e3ee7c-43db-4d8e-9423-478627686a61")
+	)
+	(fp_line
+		(start 0.9 1.15)
+		(end 1.15 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8d6945a-853b-476f-a3be-6e1b3e2416a5")
+	)
+	(fp_line
+		(start 1.15 -1.15)
+		(end 1.15 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "417e5585-a409-475a-a8fe-8c15df18a844")
+	)
+	(fp_line
+		(start 1.15 1.15)
+		(end 1.15 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14e29050-86fa-4d6e-88a2-055da4adab9f")
+	)
+	(fp_poly
+		(pts
+			(xy -1.635 -1.065) (xy -1.965 -1.305) (xy -1.965 -0.825)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "0d9aa21b-1183-47c0-b538-f838177431e3")
+	)
+	(fp_line
+		(start -1.15 -1.15)
+		(end 1.15 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c920dde-c5a0-44ff-968c-9bbca0deadd4")
+	)
+	(fp_line
+		(start -1.15 1.15)
+		(end -1.15 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4eaafcf9-a280-43b9-aa5e-9c2bf12bdb59")
+	)
+	(fp_line
+		(start 1.15 -1.15)
+		(end 1.15 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "195fa2c9-edf3-4b9d-b497-baaa7fffd552")
+	)
+	(fp_line
+		(start 1.15 1.15)
+		(end -1.15 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "41a98fbe-41b4-4e61-a5ae-592ed3672256")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0d4db944-54cc-4cdc-a463-49ed4796b83a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(fp_text_box ""
+		(start -3.5 -1.5)
+		(end 3.5 1.5)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "F.CrtYd")
+		(uuid "1716ca31-431e-4745-a468-778507ba3714")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.3 2.3)
+		(drill 2.3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "99fd32b2-ab17-4dca-b703-ae78ca271b6c")
+	)
+	(pad "1" smd rect
+		(at -2.5 0 90)
+		(size 0.75 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e49fa177-2a2e-4cb8-b94e-65fa3cf58c5d")
+	)
+	(pad "2" smd rect
+		(at 2.5 0 90)
+		(size 0.75 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bb9989f9-acb4-4de3-a6ce-406e90b26e9c")
+	)
+	(embedded_fonts no)
+	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/Marcus_Discretes/VSMY2890RGX01.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

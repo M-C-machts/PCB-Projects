@@ -1,0 +1,241 @@
+(footprint "VEMT2000X01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "VEMT2000X01")
+	(tags "Transistor BJT NPN")
+	(property "Reference" "Q**"
+		(at -0.05 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "78744535-009c-4a4c-906a-ba46e09181f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "VEMT2000X01"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1daff72b-2949-4980-ac8d-363e19fe8137")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8a5c34c-cd1d-4faf-b473-a8cb00e70350")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68e0b3cd-2386-4f9d-ab7e-1702674bbe59")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.15 -1.15)
+		(end -0.9 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "079071d4-9751-4ba6-b200-39a7b784cbe7")
+	)
+	(fp_line
+		(start -1.15 -0.9)
+		(end -1.15 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93d2b7fc-239a-4192-a68c-55ba51dfc44a")
+	)
+	(fp_line
+		(start -1.15 0.9)
+		(end -1.15 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "647c9b4a-6878-4bef-aa86-6ce66a802ea5")
+	)
+	(fp_line
+		(start -1.15 1.15)
+		(end -0.9 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5801cab-2a35-43fb-8240-d14cb2aad26a")
+	)
+	(fp_line
+		(start 0.9 -1.15)
+		(end 1.15 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51270924-e6ed-4df7-ba30-5f0a8ec342d9")
+	)
+	(fp_line
+		(start 0.9 1.15)
+		(end 1.15 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "803fdcf6-f86c-4189-b0b3-3fe65ebaf45e")
+	)
+	(fp_line
+		(start 1.15 -1.15)
+		(end 1.15 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "feaa9618-1e54-43b9-b619-0779f4e2b75f")
+	)
+	(fp_line
+		(start 1.15 1.15)
+		(end 1.15 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "633f7000-7ee9-4fb8-a17f-4e686545aa8b")
+	)
+	(fp_poly
+		(pts
+			(xy -1.485 -1.015) (xy -1.815 -1.255) (xy -1.815 -0.775)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "54a98bc6-7b31-40ad-8779-dcb1b02cde6c")
+	)
+	(fp_rect
+		(start -3.5 -1.5)
+		(end 3.5 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a63b5d94-8e45-442d-a974-15e67041589a")
+	)
+	(fp_line
+		(start -1.15 -1.15)
+		(end 1.15 -1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a1b4a71-fd64-40cd-8e5c-58b7338c26ca")
+	)
+	(fp_line
+		(start -1.15 1.15)
+		(end -1.15 -1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8375e04-4643-41f6-8f7f-e8e024dd841f")
+	)
+	(fp_line
+		(start 1.15 -1.15)
+		(end 1.15 1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f92d6cba-4f2c-4a58-a961-166cc221a3cc")
+	)
+	(fp_line
+		(start 1.15 1.15)
+		(end -1.15 1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c91a2ce-bfb0-4a81-a457-aacdfa50381e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "31ea176f-5a19-48bf-9dee-bc057af02ab3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f59774f9-d173-4c10-9e39-b5411e6becf1")
+	)
+	(pad "1" smd rect
+		(at -2.5 0 90)
+		(size 0.75 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "61ce2304-592e-41c0-bb12-64f659e07fa2")
+	)
+	(pad "2" smd rect
+		(at 2.5 0 90)
+		(size 0.75 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0bd751a9-f00f-4a06-a455-bfde5020bce3")
+	)
+	(embedded_fonts no)
+	(model "C:/PCB-Projects/Marcus-PCB-Library/3dshapes/Marcus_Discretes/VSMY2890RGX01.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
